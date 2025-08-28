@@ -5,9 +5,21 @@
 [build.environment]
   PHP_VERSION = "8.1"
 
+# Handle PHP files
+[[redirects]]
+  from = "/*.php"
+  to = "/:splat"
+  status = 200
+
+# Handle root and other routes
+[[redirects]]
+  from = "/"
+  to = "/index.php"
+  status = 200
+
 [[redirects]]
   from = "/*"
-  to = "/index.php"
+  to = "/:splat.php"
   status = 200
 
 [[headers]]

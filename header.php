@@ -339,6 +339,40 @@
               text-align: center;
           }
           
+          /* Additional centering for MEP projects grid */
+          .projects.grid {
+              text-align: center;
+          }
+          
+          .project-single {
+              text-align: center;
+          }
+          
+          .project-single .project-thumb {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+          }
+          
+          .project-single .project-thumb img {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              margin: 0 auto;
+              object-fit: cover;
+          }
+          
+          /* Center the grid items */
+          .grid-item {
+              text-align: center;
+          }
+          
+          /* Ensure the project container is centered */
+          .project-wrapper .container {
+              text-align: center;
+          }
+          
       </style>
    </head>
    <body class="<?php echo getLanguageClass(); ?>">

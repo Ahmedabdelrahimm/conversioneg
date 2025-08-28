@@ -219,7 +219,7 @@
                <div class="stat-icon">
                   <i class="fa-solid fa-clock" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
                </div>
-               <h3 class="stat-number"><span class="counter">13</span>+</h3>
+               <h3 class="stat-number"><span class="counter">15</span>+</h3>
                <p class="stat-label"><?php _e('gallery_stats_experience'); ?></p>
             </div>
          </div>
@@ -228,7 +228,7 @@
                <div class="stat-icon">
                   <i class="fa-solid fa-award" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
                </div>
-               <h3 class="stat-number"><span class="counter">98</span>%</h3>
+               <h3 class="stat-number"><span class="counter">99.99</span>%</h3>
                <p class="stat-label"><?php _e('gallery_stats_satisfaction'); ?></p>
             </div>
          </div>
