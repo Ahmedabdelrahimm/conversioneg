@@ -1,25 +1,65 @@
 [build]
   publish = "."
-  command = ""
+  command = "echo 'No build step required'"
 
 [build.environment]
   PHP_VERSION = "8.1"
 
-# Handle PHP files
-[[redirects]]
-  from = "/*.php"
-  to = "/:splat"
-  status = 200
-
-# Handle root and other routes
+# Handle PHP files properly
 [[redirects]]
   from = "/"
   to = "/index.php"
   status = 200
 
 [[redirects]]
+  from = "/about"
+  to = "/about.php"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.php"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.php"
+  status = 200
+
+[[redirects]]
+  from = "/gallery"
+  to = "/gallery.php"
+  status = 200
+
+[[redirects]]
+  from = "/mep-projects"
+  to = "/mep-projects.php"
+  status = 200
+
+[[redirects]]
+  from = "/central-heating"
+  to = "/central-heating.php"
+  status = 200
+
+[[redirects]]
+  from = "/central-domestic-hot-water"
+  to = "/central-domestic-hot-water.php"
+  status = 200
+
+[[redirects]]
+  from = "/swimming-pools-heating"
+  to = "/swimming-pools-heating.php"
+  status = 200
+
+[[redirects]]
+  from = "/heating-products"
+  to = "/heating-products.php"
+  status = 200
+
+# Catch-all for other PHP files
+[[redirects]]
   from = "/*"
-  to = "/:splat.php"
+  to = "/:splat"
   status = 200
 
 [[headers]]
