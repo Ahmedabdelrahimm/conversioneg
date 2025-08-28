@@ -6,12 +6,12 @@
             <div class="breadcrumb-content">
                <div class="breadcrumb__link">
                   <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li>Central Domestic Hot Water</li>
+                     <li><a href="index.php"><?php _e('home'); ?></a></li>
+                     <li><a href="services.php"><?php _e('services_products'); ?></a></li>
+                     <li><?php _e('central_domestic_hot_water'); ?></li>
                   </ul>
                </div>
-               <h2 class="title wow fadeInUp " data-wow-delay="300ms">Central Domestic Hot Water</h2>
+               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('central_domestic_hot_water'); ?></h2>
             </div>
          </div>
       </div>
@@ -22,10 +22,10 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3">
             <div class="section__heading text-center wow fadeInUp " data-wow-delay="300ms">
-               <h2 class="section_title">Central Domestic Hot Water</h2>
+               <h2 class="section_title"><?php _e('central_domestic_hot_water'); ?></h2>
                <div class="sec_dec">
-                  <p>We provide you with central hot water solutions to ensure your upmost comfortable experience.</p>
-                  <p>We offer a variety of solar, gas, and electric systems.</p>
+                  <p><?php _e('central_domestic_hot_water_desc'); ?></p>
+                  <p><?php _e('central_domestic_hot_water_systems'); ?></p>
                </div>
             </div>
          </div>

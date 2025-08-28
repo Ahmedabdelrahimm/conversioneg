@@ -6,7 +6,7 @@
             <div class="hero-content">
                <h1 class="wow fadeInRight  hero-title tj-primary" data-wow-delay="1s"><?php _e('hero_title'); ?></h1>
                <p class="wow fadeInRight " data-wow-delay="1s"><?php _e('hero_subtitle'); ?></p>
-               <a href="about.php" class="tj-btn-primary style-1 wow fadeInUp " data-wow-delay="1.2s"><?php _e('read_more'); ?> <i class="fa-light fa-arrow-right-long"></i></a>
+               <a href="services.php" class="tj-btn-primary style-1 wow fadeInUp " data-wow-delay="1.2s"><?php _e('read_more'); ?> <i class="fa-light fa-arrow-right-long"></i></a>
             </div>
          </div>
       </div>
@@ -58,7 +58,7 @@
                   </div>
                   <div class="author-content gap-4 wow fadeInUp" data-wow-delay="0.6s">
                      <div class="about-btn">
-                        <a href="about.php" class="tj-btn-primary style-1">Read More <i class="fa-light fa-arrow-right-long"></i></a>
+                        <a href="about.php" class="tj-btn-primary style-1"><?php _e('learn_more'); ?> <i class="fa-light fa-arrow-right-long"></i></a>
                      </div>
                   </div>
                </div>
@@ -70,6 +70,62 @@
       <img src="assets/img/about-1.svg" alt="">
    </div>
 </section>
+
+<!-- Why Trust Us Section -->
+<section class="about-wrapper about-1 section-padding overflow-hidden bg-light">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-6 offset-xl-3 wow fadeInUp " data-wow-delay="300ms">
+            <div class="section__heading text-center">
+               <h2 class="section_title"><?php _e('what_makes_us_different_title'); ?></h2>
+               <p class="sec_dec"><?php _e('what_makes_us_different_subtitle'); ?></p>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-4 col-md-6 mb-4">
+            <div class="single-service-2 wow fadeInUp " data-wow-delay="0.4s">
+               <div class="service-content text-center">
+                  <div class="service-icon">
+                     <div class="icons">
+                        <i class="fa-solid fa-map-location-dot" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
+                     </div>
+                  </div>
+                  <h4 class="tj_service-name"><?php _e('local_expertise_title'); ?></h4>
+                  <p><?php _e('local_expertise_desc'); ?></p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 mb-4">
+            <div class="single-service-2 wow fadeInUp " data-wow-delay="0.4s">
+               <div class="service-content text-center">
+                  <div class="service-icon">
+                     <div class="icons">
+                        <i class="fa-solid fa-shield-halved" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
+                     </div>
+                  </div>
+                  <h4 class="tj_service-name"><?php _e('quality_guaranteed_title'); ?></h4>
+                  <p><?php _e('quality_guaranteed_desc'); ?></p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 mb-4">
+            <div class="single-service-2 wow fadeInUp " data-wow-delay="0.4s">
+               <div class="service-content text-center">
+                  <div class="service-icon">
+                     <div class="icons">
+                        <i class="fa-solid fa-calculator" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
+                     </div>
+                  </div>
+                  <h4 class="tj_service-name"><?php _e('smart_solutions_title'); ?></h4>
+                  <p><?php _e('smart_solutions_desc'); ?></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 <section class="cta-wrapper cta-1 bg-cover overflow-hidden" data-bg-image="assets/img/cta.png">
    <div class="container">
       <div class="row align-items-center">
@@ -92,8 +148,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp " data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title"><?php _e('services_title'); ?></h2>
-               <p class="sec_dec"><?php _e('services_description'); ?></p>
+               <h2 class="section_title"><?php _e('home_services_title'); ?></h2>
+               <p class="sec_dec"><?php _e('home_services_desc'); ?></p>
             </div>
          </div>
       </div>

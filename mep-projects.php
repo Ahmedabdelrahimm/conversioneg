@@ -6,12 +6,12 @@
             <div class="breadcrumb-content">
                <div class="breadcrumb__link">
                   <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li>MEP Projects</li>
+                     <li><a href="index.php"><?php _e('home'); ?></a></li>
+                     <li><a href="services.php"><?php _e('services_products'); ?></a></li>
+                     <li><?php _e('mep_projects'); ?></li>
                   </ul>
                </div>
-               <h2 class="title wow fadeInUp " data-wow-delay="300ms">MEP Projects</h2>
+               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('mep_projects'); ?></h2>
             </div>
          </div>
       </div>
@@ -22,9 +22,9 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3">
             <div class="section__heading text-center wow fadeInUp " data-wow-delay="300ms">
-               <h2 class="section_title">MEP Projects</h2>
+               <h2 class="section_title"><?php _e('mep_projects'); ?></h2>
                <div class="sec_dec">
-                  <p>Conversion can take care of all of your mechanical, electrical, and plumbing works. We provide you with all the services you need to get your home started.</p>
+                  <p><?php _e('mep_projects_desc'); ?></p>
                </div>
             </div>
          </div>

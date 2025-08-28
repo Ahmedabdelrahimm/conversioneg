@@ -6,12 +6,12 @@
             <div class="breadcrumb-content">
                <div class="breadcrumb__link">
                   <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li>Heating Products</li>
+                     <li><a href="index.php"><?php _e('home'); ?></a></li>
+                     <li><a href="services.php"><?php _e('services_products'); ?></a></li>
+                     <li><?php _e('heating_products'); ?></li>
                   </ul>
                </div>
-               <h2 class="title wow fadeInUp " data-wow-delay="300ms">Heating Products</h2>
+               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('heating_products'); ?></h2>
             </div>
          </div>
       </div>
@@ -22,10 +22,10 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3">
             <div class="section__heading text-center wow fadeInUp " data-wow-delay="300ms">
-               <h2 class="section_title">Heating Products</h2>
+               <h2 class="section_title"><?php _e('heating_products'); ?></h2>
                <div class="sec_dec">
-                  <p>We offer you a variety of heating products that you can enjoy without having a complete heating system.</p>
-                  <p>Our fireplaces are elegant, modern and will always make your living area warm and cozy; we also offer a variety of electrical towel warmers.</p>
+                  <p><?php _e('heating_products_desc'); ?></p>
+                  <p><?php _e('heating_products_features'); ?></p>
                </div>
             </div>
          </div>

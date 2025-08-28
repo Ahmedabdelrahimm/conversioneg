@@ -478,7 +478,7 @@
 	/* =============================================
 				17. Form Submission
 	===============================================*/
-	if ($("#contact-form").length > 0) {
+			if ($("#contact-form").length > 0) {
 		$("#contact-form").validate({
 			rules: {
 				confname: "required",
@@ -486,19 +486,19 @@
 					required: true,
 					email: true,
 				},
-				conSubject: "required",
+				conMessage: "required",
 			},
 
 			messages: {
 				confname: "Enter your first name.",
 				conEmail: "Enter a valid email.",
-				conSubject: "Enter your Subject.",
+				conMessage: "Enter your message.",
 			},
 			submitHandler: function (form) {
 				// start ajax request
 				$.ajax({
 					type: "POST",
-					url: "assets/mail/contact-form.php",
+					url: "assets/mail/contact-form-smtp.php",
 					data: $("#contact-form").serialize(),
 					cache: false,
 					success: function (data) {

@@ -6,12 +6,12 @@
             <div class="breadcrumb-content">
                <div class="breadcrumb__link">
                   <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li>Central Heating</li>
+                     <li><a href="index.php"><?php _e('home'); ?></a></li>
+                     <li><a href="services.php"><?php _e('services_products'); ?></a></li>
+                     <li><?php _e('central_heating'); ?></li>
                   </ul>
                </div>
-               <h2 class="title wow fadeInUp " data-wow-delay="300ms">Central Heating</h2>
+               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('central_heating'); ?></h2>
             </div>
          </div>
       </div>
@@ -22,13 +22,11 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3">
             <div class="section__heading text-center wow fadeInUp " data-wow-delay="300ms">
-               <h2 class="section_title">Central Heating</h2>
+               <h2 class="section_title"><?php _e('central_heating'); ?></h2>
                <div class="sec_dec">
-                  <p>Central Heating: Conversion provides you with the most efficient and unique smart heating solutions to help you turn your home to your ultimate comfort zone. Our smart heating systems include;</p>
+                  <p><?php _e('central_heating_desc'); ?></p>
                   <p>
-                  1. Radiator Heating System <br>
-                  2. Underfloor Heating <br>
-                  3. Modern Heating Solutions
+                  <?php _e('central_heating_systems_list'); ?>
                   </p>
                </div>
             </div>

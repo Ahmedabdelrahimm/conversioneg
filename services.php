@@ -6,8 +6,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp " data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">YOUR COMFORT LIES WITHIN OUR<br>SMART HEATING SOLUTIONS</h2>
-               <p class="sec_dec">Conversion provides you with the most efficient and unique smart heating solutions & heating products</p>
+               <h2 class="section_title"><?php _e('services_hero_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_hero_desc'); ?></p>
             </div>
          </div>
       </div>
@@ -31,8 +31,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="mep-projects.php">MEP Projects</a></h4>
-                  <p>Conversion can take care of all of your mechanical, electrical, and plumbing works. We provide...</p>
+                  <h4 class="tj_service-name"><a href="mep-projects.php"><?php _e('services_mep_title'); ?></a></h4>
+                  <p><?php _e('services_mep_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -52,8 +52,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="central-heating.php">Central Heating</a></h4>
-                  <p>Conversion provides you with the most efficient and unique smart heating solutions to help you...</p>
+                  <h4 class="tj_service-name"><a href="central-heating.php"><?php _e('services_central_heating_title'); ?></a></h4>
+                  <p><?php _e('services_central_heating_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -76,8 +76,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="central-domestic-hot-water.php">Central Domestic Hot Water</a></h4>
-                  <p>We provide you with central hot water solutions to ensure your upmost comfortable experience. We...</p>
+                  <h4 class="tj_service-name"><a href="central-domestic-hot-water.php"><?php _e('services_central_domestic_hot_water_title'); ?></a></h4>
+                  <p><?php _e('services_central_domestic_hot_water_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -96,8 +96,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="swimming-pools-heating.php">Swimming Pools Heating</a></h4>
-                  <p>Conversion will also take care of heating up your swimming pool and jacuzzi.</p>
+                  <h4 class="tj_service-name"><a href="swimming-pools-heating.php"><?php _e('services_swimming_pools_heating_title'); ?></a></h4>
+                  <p><?php _e('services_swimming_pools_heating_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -114,8 +114,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="heating-products.php">Heating Products</a></h4>
-                  <p>We offer you a variety of heating products that you can enjoy without having a...</p>
+                  <h4 class="tj_service-name"><a href="heating-products.php"><?php _e('services_heating_products_title'); ?></a></h4>
+                  <p><?php _e('services_heating_products_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -129,8 +129,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Central Heating</h2>
-               <p class="sec_dec">At Conversion, we believe comfort should be effortless. That's why we provide smart and efficient heating systems designed to turn any home or business into the perfect comfort zone.</p>
+               <h2 class="section_title"><?php _e('services_central_heating_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_central_heating_overview'); ?></p>
             </div>
          </div>
       </div>
@@ -139,25 +139,25 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Radiator Heating Systems</h3>
-               <p class="about-text">Our radiator systems bring together timeless reliability and modern efficiency. Built with durable, high-quality materials, they heat your space quickly and evenly while adding a sleek, stylish touch to your interiors.</p>
-               <p class="about-text">With smart controls and customizable options, you'll enjoy warmth exactly where and when you need it. Perfect for creating a cozy atmosphere in living rooms, bedrooms, and workspaces.</p>
+               <h3 class="about-title"><?php _e('services_radiator_heating_title'); ?></h3>
+               <p class="about-text"><?php _e('services_radiator_heating_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_radiator_heating_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Quick and even heating</span>
+                     <span><?php _e('services_radiator_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Smart controls and customization</span>
+                     <span><?php _e('services_radiator_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Sleek, stylish design</span>
+                     <span><?php _e('services_radiator_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Perfect for living rooms and bedrooms</span>
+                     <span><?php _e('services_radiator_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -173,25 +173,25 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Underfloor Heating</h3>
-               <p class="about-text">Imagine stepping onto warm floors every morning — underfloor heating makes that possible. This system provides consistent, even heat that rises naturally throughout the room, eliminating cold spots and creating an inviting environment.</p>
-               <p class="about-text">Because it's built directly into the floor, it saves wall space, improves air quality, and adds a sense of luxury to everyday living. Ideal for kitchens, bathrooms, and open-plan areas.</p>
+               <h3 class="about-title"><?php _e('services_underfloor_heating_title'); ?></h3>
+               <p class="about-text"><?php _e('services_underfloor_heating_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_underfloor_heating_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Consistent, even heat distribution</span>
+                     <span><?php _e('services_underfloor_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Eliminates cold spots</span>
+                     <span><?php _e('services_underfloor_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Saves wall space</span>
+                     <span><?php _e('services_underfloor_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Improves air quality</span>
+                     <span><?php _e('services_underfloor_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -207,25 +207,25 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Modern Smart Heating Solutions</h3>
-               <p class="about-text">Our smart heating solutions put you in complete control. Using the latest technology, you can manage your heating anytime and anywhere from your smartphone or smart home system.</p>
-               <p class="about-text">These innovative setups not only adapt to your lifestyle but also help reduce energy costs and environmental impact. A future-ready choice for families and businesses who value both comfort and efficiency.</p>
+               <h3 class="about-title"><?php _e('services_smart_heating_title'); ?></h3>
+               <p class="about-text"><?php _e('services_smart_heating_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_smart_heating_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Remote control via smartphone</span>
+                     <span><?php _e('services_smart_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Smart home integration</span>
+                     <span><?php _e('services_smart_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Energy cost reduction</span>
+                     <span><?php _e('services_smart_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Environmental friendly</span>
+                     <span><?php _e('services_smart_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -241,9 +241,9 @@
       <div class="row">
          <div class="col-xl-8 offset-xl-2 wow fadeInUp" data-wow-delay="400ms">
             <div class="about-content text-center">
-               <h3 class="about-title">Built Around Your Comfort</h3>
-               <p class="about-text">Every heating system we design is tailored to the unique needs of your space. From compact apartments to large homes and offices, our goal is to create environments that feel warm, efficient, and truly comfortable.</p>
-               <p class="about-text">With Central Heating Conversion, you're not just getting a heating system — you're choosing to convert to comfort.</p>
+               <h3 class="about-title"><?php _e('services_comfort_title'); ?></h3>
+               <p class="about-text"><?php _e('services_comfort_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_comfort_desc2'); ?></p>
             </div>
          </div>
       </div>
@@ -256,8 +256,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Our Heating Solutions Gallery</h2>
-               <p class="sec_dec">Explore our range of heating systems and installations</p>
+               <h2 class="section_title"><?php _e('services_gallery_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_gallery_desc'); ?></p>
             </div>
          </div>
       </div>
@@ -269,8 +269,8 @@
                   <img src="assets/img/central-heating/4.jpg" alt="Modern Radiator System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Modern Radiator System</h4>
-                        <p>Efficient and stylish heating solution</p>
+                        <h4><?php _e('services_gallery_radiator_title'); ?></h4>
+                        <p><?php _e('services_gallery_radiator_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -283,8 +283,8 @@
                   <img src="assets/img/central-heating/5.png" alt="Smart Control Panel" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Smart Control Panel</h4>
-                        <p>Advanced temperature management</p>
+                        <h4><?php _e('services_gallery_control_title'); ?></h4>
+                        <p><?php _e('services_gallery_control_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -297,8 +297,8 @@
                   <img src="assets/img/central-heating/6.jpg" alt="Underfloor Heating Installation" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Underfloor Heating</h4>
-                        <p>Luxury comfort from the ground up</p>
+                        <h4><?php _e('services_gallery_underfloor_title'); ?></h4>
+                        <p><?php _e('services_gallery_underfloor_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -311,8 +311,8 @@
                   <img src="assets/img/central-heating/7.jpg" alt="Commercial Heating System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Commercial Heating</h4>
-                        <p>Large-scale heating solutions</p>
+                        <h4><?php _e('services_gallery_commercial_title'); ?></h4>
+                        <p><?php _e('services_gallery_commercial_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -325,8 +325,8 @@
                   <img src="assets/img/central-heating/8.png" alt="Energy Efficient System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Energy Efficient System</h4>
-                        <p>Eco-friendly heating technology</p>
+                        <h4><?php _e('services_gallery_energy_title'); ?></h4>
+                        <p><?php _e('services_gallery_energy_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -339,8 +339,8 @@
                   <img src="assets/img/central-heating/9.png" alt="Residential Heating" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4>Residential Heating</h4>
-                        <p>Perfect comfort for your home</p>
+                        <h4><?php _e('services_gallery_residential_title'); ?></h4>
+                        <p><?php _e('services_gallery_residential_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -356,8 +356,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Central Domestic Hot Water</h2>
-               <p class="sec_dec">Hot water is more than a necessity — it's part of daily comfort. At Central Domestic Hot Water, we provide reliable and efficient systems designed to give you a seamless experience, no matter your lifestyle or needs.</p>
+               <h2 class="section_title"><?php _e('services_hot_water_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_hot_water_overview'); ?></p>
             </div>
          </div>
       </div>
@@ -366,25 +366,25 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Tailored Hot Water Solutions</h3>
-               <p class="about-text">We offer a variety of central systems powered by solar, gas, electric, and heat pump technology, giving you the flexibility to choose what fits your home best. Each system is designed for durability and efficiency, ensuring a steady supply of hot water whenever you need it.</p>
-               <p class="about-text">With our range of solutions, you can enjoy the perfect balance of performance, efficiency, and convenience every day.</p>
+               <h3 class="about-title"><?php _e('services_hot_water_solutions_title'); ?></h3>
+               <p class="about-text"><?php _e('services_hot_water_solutions_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_hot_water_solutions_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Solar Systems: Harness renewable energy to heat your water sustainably</span>
+                     <span><?php _e('services_hot_water_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Gas Systems: Efficient and cost-effective, providing fast water heating</span>
+                     <span><?php _e('services_hot_water_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Electric Systems: Simple, convenient, and adaptable to different spaces</span>
+                     <span><?php _e('services_hot_water_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Heat Pump Systems: Cutting-edge, eco-friendly solution with big savings</span>
+                     <span><?php _e('services_hot_water_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -400,10 +400,10 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Comfort, Efficiency, and Reliability</h3>
-               <p class="about-text">From morning showers to evening routines, your hot water system should work quietly in the background — always ready, always dependable. With our central hot water solutions, you'll enjoy consistent temperature, reduced energy waste, and the peace of mind that comes with a system built around your comfort.</p>
-               <p class="about-text">The Smarter Choice for Everyday Living</p>
-               <p class="about-text">Whether you want to reduce energy costs, upgrade to renewable technology, or simply ensure your family never runs out of hot water, we'll design a solution tailored to your needs. At Conversion, we turn everyday routines into experiences of comfort and efficiency.</p>
+               <h3 class="about-title"><?php _e('services_hot_water_comfort_title'); ?></h3>
+               <p class="about-text"><?php _e('services_hot_water_comfort_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_hot_water_comfort_desc2'); ?></p>
+               <p class="about-text"><?php _e('services_hot_water_comfort_desc3'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
@@ -421,8 +421,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">MEP (Mechanical, Electrical, and Plumbing)</h2>
-               <p class="sec_dec">At Conversion, we handle every aspect of your mechanical, electrical, and plumbing (MEP) needs, ensuring your project starts on the right foundation. From concept to completion, we provide integrated solutions that bring efficiency, safety, and reliability to your home or business.</p>
+               <h2 class="section_title"><?php _e('services_mep_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_mep_overview'); ?></p>
             </div>
          </div>
       </div>
@@ -431,24 +431,24 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Comprehensive MEP Services</h3>
-               <p class="about-text">Our integrated approach ensures all systems work together seamlessly, providing you with a complete solution for your mechanical, electrical, and plumbing needs.</p>
+               <h3 class="about-title"><?php _e('services_mep_services_title'); ?></h3>
+               <p class="about-text"><?php _e('services_mep_services_desc'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Mechanical Works – Heating, ventilation, and air conditioning systems</span>
+                     <span><?php _e('services_mep_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Electrical Works – Safe, efficient wiring and power distribution</span>
+                     <span><?php _e('services_mep_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Plumbing Works – Reliable water supply, drainage, and piping systems</span>
+                     <span><?php _e('services_mep_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Smart home systems and lighting solutions</span>
+                     <span><?php _e('services_mep_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -464,10 +464,10 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Building the Foundation of Comfort</h3>
-               <p class="about-text">Our MEP expertise ensures that your space is not only functional but also future-ready. By combining advanced technology with high-quality materials and expert installation, we create systems that work seamlessly together — giving you the comfort, safety, and efficiency you deserve.</p>
-               <p class="about-text">Why Choose Conversion?</p>
-               <p class="about-text">With our end-to-end MEP services, you won't need to juggle multiple contractors. We provide everything under one roof, streamlining your project, reducing costs, and ensuring consistent quality across all systems. At Conversion, we don't just install utilities — we design the backbone of your home so you can truly convert to comfort.</p>
+               <h3 class="about-title"><?php _e('services_mep_foundation_title'); ?></h3>
+               <p class="about-text"><?php _e('services_mep_foundation_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_mep_foundation_desc2'); ?></p>
+               <p class="about-text"><?php _e('services_mep_foundation_desc3'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
@@ -485,8 +485,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Swimming Pool Heating</h2>
-               <p class="sec_dec">Enjoy your pool or jacuzzi in perfect comfort all year round with Conversion's heating solutions. We design and install efficient systems that keep your water at the ideal temperature, no matter the season.</p>
+               <h2 class="section_title"><?php _e('services_pool_heating_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_pool_heating_overview'); ?></p>
             </div>
          </div>
       </div>
@@ -495,25 +495,25 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Pool Heating Solutions</h3>
-               <p class="about-text">Our tailored heating options combine performance with energy efficiency, giving you warm, inviting water while keeping running costs under control. Whether it's for a private home, a luxury villa, or a commercial facility, our solutions bring comfort and reliability to every swim.</p>
-               <p class="about-text">With Conversion, your swimming pool and jacuzzi become more than just a feature — they become a place to relax, recharge, and truly convert to comfort.</p>
+               <h3 class="about-title"><?php _e('services_pool_solutions_title'); ?></h3>
+               <p class="about-text"><?php _e('services_pool_solutions_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_pool_solutions_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Year-round swimming comfort</span>
+                     <span><?php _e('services_pool_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Energy-efficient heating systems</span>
+                     <span><?php _e('services_pool_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Ideal for private homes and commercial facilities</span>
+                     <span><?php _e('services_pool_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Cost-effective operation and maintenance</span>
+                     <span><?php _e('services_pool_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -529,9 +529,9 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Luxury Pool Experience</h3>
-               <p class="about-text">Transform your outdoor space into a year-round oasis with our advanced pool heating technology. Our systems maintain perfect water temperature regardless of weather conditions, extending your swimming season and maximizing your investment.</p>
-               <p class="about-text">From compact residential pools to large commercial facilities, we provide customized solutions that deliver consistent performance and exceptional comfort. Experience the luxury of warm water whenever you want to swim.</p>
+               <h3 class="about-title"><?php _e('services_pool_luxury_title'); ?></h3>
+               <p class="about-text"><?php _e('services_pool_luxury_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_pool_luxury_desc2'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
@@ -549,8 +549,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Heating Products</h2>
-               <p class="sec_dec">At Conversion, we know that comfort doesn't always require a full heating system. That's why we offer a selection of standalone heating products designed to add warmth, style, and convenience to your home.</p>
+               <h2 class="section_title"><?php _e('services_heating_products_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_heating_products_overview'); ?></p>
             </div>
          </div>
       </div>
@@ -559,24 +559,24 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Premium Heating Products</h3>
-               <p class="about-text">Our range of heating products combines functionality with elegant design, providing targeted warmth and comfort for specific areas of your home. Each product is carefully selected for quality, efficiency, and style.</p>
+               <h3 class="about-title"><?php _e('services_products_premium_title'); ?></h3>
+               <p class="about-text"><?php _e('services_products_premium_desc'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Fireplaces: Elegant, modern, and timeless centerpieces</span>
+                     <span><?php _e('services_products_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Towel Warmers: Practical and stylish bathroom additions</span>
+                     <span><?php _e('services_products_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Radiators: Sleek and efficient heating solutions</span>
+                     <span><?php _e('services_products_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Heat Pumps: Cutting-edge eco-friendly technology</span>
+                     <span><?php _e('services_products_feature4'); ?></span>
                   </div>
                </div>
             </div>
@@ -592,9 +592,9 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Everyday Comfort Solutions</h3>
-               <p class="about-text">With Conversion's heating products, you can enjoy everyday comfort, stylish design, and efficient performance — all without the need for a complete heating system. It's another way we help you convert to comfort.</p>
-               <p class="about-text">Each product is designed to enhance your living space while providing the warmth and comfort you need. From elegant fireplaces that become the focal point of your living room to practical towel warmers that add a spa-like touch to your bathroom, our products transform everyday moments into experiences of luxury and comfort.</p>
+               <h3 class="about-title"><?php _e('services_products_comfort_title'); ?></h3>
+               <p class="about-text"><?php _e('services_products_comfort_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_products_comfort_desc2'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
@@ -611,7 +611,7 @@
       <div class="row align-items-center">
          <div class="col-md-8 wow fadeInLeft " data-wow-delay="0.6s">
             <div class="single-text  text-center text-md-start">
-               <h2 class="section_title">GET A QUOTATION!</h2>
+               <h2 class="section_title"><?php _e('services_cta_title'); ?></h2>
             </div>
          </div>
          <div class="col-md-4 text-center text-md-end wow fadeInRight mt-4 mt-lg-0" data-wow-delay="0.6s">

@@ -320,6 +320,24 @@
              }
           }
           
+          /* Center align project images */
+          .project-single .project-thumb {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+          }
+          
+          .project-single .project-thumb img {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              margin: 0 auto;
+          }
+          
+          .project-single-inner {
+              text-align: center;
+          }
           
       </style>
    </head>
