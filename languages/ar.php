@@ -313,6 +313,7 @@ return [
     'gallery_filter_heating' => 'أنظمة التدفئة',
     'gallery_filter_mep' => 'مشاريع الميكانيكا والكهرباء والسباكة',
     'gallery_filter_products' => 'منتجات التدفئة',
+    'gallery_filter_towel_warmers' => 'مدافئ المناشف',
     
     // Gallery Items - Heating Systems
     'gallery_central_heating_alt' => 'تركيب التدفئة المركزية الحديثة',
@@ -348,6 +349,27 @@ return [
     'gallery_modern_equipment_alt' => 'معدات التدفئة الحديثة',
     'gallery_modern_equipment_title' => 'المعدات الحديثة',
     'gallery_modern_equipment_desc' => 'حلول تدفئة معاصرة للمنازل الحديثة',
+    
+    // Gallery Items - Towel Warmers
+    'gallery_towel_warmer_1_alt' => 'مدفأة مناشف مميزة',
+    'gallery_towel_warmer_1_title' => 'مدفأة مناشف مميزة',
+    'gallery_towel_warmer_1_desc' => 'حل تدفئة أنيق وفعال للحمام',
+    
+    'gallery_towel_warmer_2_alt' => 'مدفأة مناشف حديثة',
+    'gallery_towel_warmer_2_title' => 'مدفأة مناشف حديثة',
+    'gallery_towel_warmer_2_desc' => 'تصميم معاصر مع تقنية تدفئة متقدمة',
+    
+    'gallery_towel_warmer_3_alt' => 'مدفأة مناشف فاخرة',
+    'gallery_towel_warmer_3_title' => 'مدفأة مناشف فاخرة',
+    'gallery_towel_warmer_3_desc' => 'راحة وأناقة عالية الجودة للحمام',
+    
+    'gallery_towel_warmer_4_alt' => 'مدفأة مناشف مدمجة',
+    'gallery_towel_warmer_4_title' => 'مدفأة مناشف مدمجة',
+    'gallery_towel_warmer_4_desc' => 'تصميم يوفر المساحة للحمامات الحديثة',
+    
+    'gallery_towel_warmer_5_alt' => 'مدفأة مناشف مصممة',
+    'gallery_towel_warmer_5_title' => 'مدفأة مناشف مصممة',
+    'gallery_towel_warmer_5_desc' => 'إكسسوار حمام أنيق وعملي',
     
     // Gallery Stats Section
     'gallery_stats_title' => 'إحصائيات مشاريعنا',

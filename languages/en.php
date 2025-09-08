@@ -313,6 +313,7 @@ return [
     'gallery_filter_heating' => 'Heating Systems',
     'gallery_filter_mep' => 'MEP Projects',
     'gallery_filter_products' => 'Heating Products',
+    'gallery_filter_towel_warmers' => 'Towel Warmers',
     
     // Gallery Items - Heating Systems
     'gallery_central_heating_alt' => 'Modern Central Heating Installation',
@@ -348,6 +349,27 @@ return [
     'gallery_modern_equipment_alt' => 'Modern Heating Equipment',
     'gallery_modern_equipment_title' => 'Modern Equipment',
     'gallery_modern_equipment_desc' => 'Contemporary heating solutions for modern homes',
+    
+    // Gallery Items - Towel Warmers
+    'gallery_towel_warmer_1_alt' => 'Premium Towel Warmer',
+    'gallery_towel_warmer_1_title' => 'Premium Towel Warmer',
+    'gallery_towel_warmer_1_desc' => 'Elegant and efficient bathroom heating solution',
+    
+    'gallery_towel_warmer_2_alt' => 'Modern Towel Warmer',
+    'gallery_towel_warmer_2_title' => 'Modern Towel Warmer',
+    'gallery_towel_warmer_2_desc' => 'Contemporary design with advanced heating technology',
+    
+    'gallery_towel_warmer_3_alt' => 'Luxury Towel Warmer',
+    'gallery_towel_warmer_3_title' => 'Luxury Towel Warmer',
+    'gallery_towel_warmer_3_desc' => 'High-end bathroom comfort and style',
+    
+    'gallery_towel_warmer_4_alt' => 'Compact Towel Warmer',
+    'gallery_towel_warmer_4_title' => 'Compact Towel Warmer',
+    'gallery_towel_warmer_4_desc' => 'Space-saving design for modern bathrooms',
+    
+    'gallery_towel_warmer_5_alt' => 'Designer Towel Warmer',
+    'gallery_towel_warmer_5_title' => 'Designer Towel Warmer',
+    'gallery_towel_warmer_5_desc' => 'Stylish and functional bathroom accessory',
     
     // Gallery Stats Section
     'gallery_stats_title' => 'Our Project Statistics',

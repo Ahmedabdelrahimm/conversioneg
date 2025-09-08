@@ -198,7 +198,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/central-heating/2.jpg" alt="Underfloor Heating" class="img-fluid rounded">
+               <img src="assets/img/underfloor.jpg" alt="Underfloor Heating" class="img-fluid rounded" style="width: 750px; height: 500px;"> 
             </div>
          </div>
       </div>
@@ -256,7 +256,7 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title"><?php _e('services_gallery_title'); ?></h2>
+               <h2 class="section_title" ><?php _e('services_gallery_title'); ?></h2>
                <p class="sec_dec"><?php _e('services_gallery_desc'); ?></p>
             </div>
          </div>
@@ -269,8 +269,8 @@
                   <img src="assets/img/central-heating/4.jpg" alt="Modern Radiator System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_radiator_title'); ?></h4>
-                        <p><?php _e('services_gallery_radiator_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_radiator_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_radiator_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -283,8 +283,8 @@
                   <img src="assets/img/central-heating/5.png" alt="Smart Control Panel" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_control_title'); ?></h4>
-                        <p><?php _e('services_gallery_control_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_control_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_control_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -297,8 +297,8 @@
                   <img src="assets/img/central-heating/6.jpg" alt="Underfloor Heating Installation" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_underfloor_title'); ?></h4>
-                        <p><?php _e('services_gallery_underfloor_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_underfloor_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_underfloor_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -311,8 +311,8 @@
                   <img src="assets/img/central-heating/7.jpg" alt="Commercial Heating System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_commercial_title'); ?></h4>
-                        <p><?php _e('services_gallery_commercial_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_commercial_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_commercial_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -325,8 +325,8 @@
                   <img src="assets/img/central-heating/8.png" alt="Energy Efficient System" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_energy_title'); ?></h4>
-                        <p><?php _e('services_gallery_energy_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_energy_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_energy_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -339,8 +339,8 @@
                   <img src="assets/img/central-heating/9.png" alt="Residential Heating" class="img-fluid">
                   <div class="project-overlay">
                      <div class="project-content">
-                        <h4><?php _e('services_gallery_residential_title'); ?></h4>
-                        <p><?php _e('services_gallery_residential_desc'); ?></p>
+                        <h4 style="color: white !important;"><?php _e('services_gallery_residential_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('services_gallery_residential_desc'); ?></p>
                      </div>
                   </div>
                </div>
@@ -472,7 +472,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/mep-projects/2.jpg" alt="MEP Installation" class="img-fluid rounded">
+               <img src="assets/img/mep-projects/2.jpg" alt="MEP Installation" class="img-fluid rounded" style="width: 750px; height: 500px;">
             </div>
          </div>
       </div>
@@ -520,7 +520,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/swimming-pools-heating/1.jpg" alt="Swimming Pool Heating" class="img-fluid rounded">
+               <img src="assets/img/swimming-pools-heating/2.jpg" alt="Swimming Pool Heating" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -536,7 +536,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/swimming-pools-heating/2.jpg" alt="Luxury Pool Experience" class="img-fluid rounded">
+               <img src="assets/img/swimming-pools-heating/1.jpg" alt="Luxury Pool Experience" class="img-fluid rounded">
             </div>
          </div>
       </div>

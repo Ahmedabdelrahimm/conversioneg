@@ -4,8 +4,8 @@
       <div class="row">
          <div class="col-xl-8 col-md-12 col-12">
             <div class="hero-content">
-               <h1 class="wow fadeInRight  hero-title tj-primary" data-wow-delay="1s"><?php _e('hero_title'); ?></h1>
-               <p class="wow fadeInRight " data-wow-delay="1s"><?php _e('hero_subtitle'); ?></p>
+               <h1 class="wow fadeInRight  hero-title tj-primary" data-wow-delay="1s" style="color: white !important;"><?php _e('hero_title'); ?></h1>
+               <p class="wow fadeInRight " data-wow-delay="1s" style="color: white !important;"><?php _e('hero_subtitle'); ?></p>
                <a href="services.php" class="tj-btn-primary style-1 wow fadeInUp " data-wow-delay="1.2s"><?php _e('read_more'); ?> <i class="fa-light fa-arrow-right-long"></i></a>
             </div>
          </div>
