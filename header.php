@@ -373,6 +373,19 @@
               text-align: center;
           }
           
+          /* Fix breadcrumb separator for RTL (Arabic) */
+          [dir="rtl"] .breadcrumb-wrapper .breadcrumb-content ul > li a::after {
+              right: auto;
+              left: -20px;
+          }
+          
+          /* Alternative approach: Use a different separator for RTL */
+          [dir="rtl"] .breadcrumb-wrapper .breadcrumb-content ul > li a::after {
+              content: "\\";
+              right: auto;
+              left: -20px;
+          }
+          
       </style>
    </head>
    <body class="<?php echo getLanguageClass(); ?>">
