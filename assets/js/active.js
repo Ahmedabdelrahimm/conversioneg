@@ -498,7 +498,7 @@
 				// start ajax request
 				$.ajax({
 					type: "POST",
-					url: "assets/mail/contact-form-smtp.php",
+					url: "assets/mail/contact-form-hostinger-smtp.php",
 					data: $("#contact-form").serialize(),
 					cache: false,
 					success: function (data) {

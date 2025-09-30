@@ -107,6 +107,20 @@
                <div class="service-content text-center">
                   <div class="service-icon">
                      <div class="icons">
+                        <i class="fa-solid fa-thermometer-half" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
+                     </div>
+                  </div>
+                  <h4 class="tj_service-name"><a href="#heat-pumps">Heat Pumps</a></h4>
+                  <p>Energy-efficient heating and cooling solutions for year-round comfort with significant cost savings and eco-friendly operation.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 ">
+            <div class="single-service-2 wow fadeInUp " data-wow-delay="0.4s">
+               <div class="service-thumb"></div>
+               <div class="service-content text-center">
+                  <div class="service-icon">
+                     <div class="icons">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58px" height="58px" viewBox="0 0 58 57" version="1.1">
                            <g id="surface1">
                               <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 46.722656 12.214844 C 46.53125 12.328125 46.375 12.742188 46.433594 12.988281 C 46.53125 13.355469 46.796875 13.515625 47.328125 13.515625 L 47.808594 13.515625 L 47.808594 14.25 L 46.359375 14.25 C 44.984375 14.25 44.910156 14.242188 44.910156 14.09375 C 44.910156 14.003906 44.792969 13.84375 44.652344 13.730469 L 44.394531 13.515625 L 26.863281 13.515625 C 13.074219 13.515625 9.28125 13.542969 9.113281 13.621094 C 9 13.679688 8.847656 13.84375 8.78125 13.980469 L 8.660156 14.25 L 7.886719 14.25 C 6.84375 14.25 6.554688 14.414062 6.546875 15 C 6.546875 15.226562 6.511719 15.308594 6.414062 15.308594 C 6.1875 15.308594 5.800781 15.765625 5.800781 16.023438 C 5.800781 16.316406 6.058594 16.660156 6.339844 16.726562 C 6.511719 16.765625 6.546875 16.824219 6.546875 17.09375 C 6.546875 17.34375 6.59375 17.449219 6.800781 17.621094 C 7.035156 17.816406 7.117188 17.832031 7.878906 17.832031 L 8.699219 17.832031 L 8.699219 39.898438 L 7.839844 39.898438 C 7.042969 39.898438 6.96875 39.917969 6.761719 40.105469 C 6.59375 40.25 6.546875 40.378906 6.546875 40.632812 C 6.546875 40.878906 6.511719 40.957031 6.414062 40.957031 C 6.347656 40.957031 6.171875 41.0625 6.039062 41.195312 C 5.640625 41.585938 5.742188 42.097656 6.265625 42.308594 C 6.503906 42.40625 6.546875 42.464844 6.546875 42.710938 C 6.546875 42.878906 6.621094 43.066406 6.746094 43.214844 C 6.933594 43.433594 6.976562 43.441406 7.820312 43.464844 L 8.699219 43.5 L 8.699219 43.90625 C 8.699219 44.320312 8.800781 44.597656 9.023438 44.761719 C 9.121094 44.84375 13.066406 44.859375 26.828125 44.867188 L 44.503906 44.867188 L 44.703125 44.664062 C 44.875 44.5 44.910156 44.386719 44.910156 43.980469 L 44.910156 43.492188 L 48.355469 43.464844 L 51.800781 43.441406 L 52 43.214844 C 52.273438 42.898438 52.257812 42.554688 51.960938 42.253906 L 51.71875 42.015625 L 44.898438 42.015625 L 44.925781 41.667969 L 44.949219 41.324219 L 48.40625 41.285156 C 52.234375 41.234375 52.074219 41.261719 52.167969 40.707031 C 52.207031 40.46875 52.175781 40.371094 52.007812 40.175781 L 51.800781 39.941406 L 48.371094 39.898438 L 44.949219 39.859375 L 44.925781 28.851562 L 44.910156 17.839844 L 51.800781 17.792969 L 52 17.5625 C 52.25 17.269531 52.257812 16.929688 52.007812 16.644531 C 51.84375 16.457031 51.726562 16.414062 51.304688 16.382812 L 50.792969 16.351562 L 50.792969 16.035156 C 50.792969 15.714844 50.792969 15.714844 51.121094 15.714844 C 52.066406 15.714844 52.523438 15.039062 51.960938 14.484375 L 51.71875 14.25 L 49.300781 14.25 L 49.300781 13.515625 L 49.796875 13.515625 C 50.21875 13.515625 50.335938 13.484375 50.5 13.3125 C 50.800781 13.027344 50.792969 12.53125 50.492188 12.304688 C 50.285156 12.140625 50.171875 12.132812 48.5625 12.132812 C 47.625 12.132812 46.796875 12.171875 46.722656 12.214844 Z M 13.089844 16.042969 L 13.089844 17.101562 L 10.191406 17.101562 L 10.191406 14.984375 L 13.089844 14.984375 Z M 17.398438 16.042969 L 17.398438 17.101562 L 14.5 17.101562 L 14.5 14.984375 L 17.398438 14.984375 Z M 21.792969 16.042969 L 21.792969 17.101562 L 18.890625 17.101562 L 18.890625 14.984375 L 21.792969 14.984375 Z M 26.101562 16.042969 L 26.101562 17.101562 L 23.199219 17.101562 L 23.199219 14.984375 L 26.101562 14.984375 Z M 30.492188 16.042969 L 30.492188 17.101562 L 27.589844 17.101562 L 27.589844 14.984375 L 30.492188 14.984375 Z M 34.800781 16.042969 L 34.800781 17.101562 L 31.898438 17.101562 L 31.898438 14.984375 L 34.800781 14.984375 Z M 39.191406 16.042969 L 39.191406 17.101562 L 36.292969 17.101562 L 36.292969 14.984375 L 39.191406 14.984375 Z M 43.5 16.042969 L 43.5 17.101562 L 40.601562 17.101562 L 40.601562 14.984375 L 43.5 14.984375 Z M 8.699219 16.042969 L 8.699219 16.367188 L 7.953125 16.367188 L 7.953125 15.714844 L 8.699219 15.714844 Z M 46.398438 16.042969 L 46.398438 16.367188 L 44.910156 16.367188 L 44.910156 15.714844 L 46.398438 15.714844 Z M 49.300781 16.042969 L 49.300781 16.367188 L 47.890625 16.367188 L 47.890625 15.714844 L 49.300781 15.714844 Z M 13.089844 18.890625 L 13.089844 19.21875 L 10.191406 19.21875 L 10.191406 18.566406 L 13.089844 18.566406 Z M 17.398438 18.890625 L 17.398438 19.21875 L 14.5 19.21875 L 14.5 18.566406 L 17.398438 18.566406 Z M 21.792969 18.890625 L 21.792969 19.21875 L 18.890625 19.21875 L 18.890625 18.566406 L 21.792969 18.566406 Z M 26.101562 18.890625 L 26.101562 19.21875 L 23.199219 19.21875 L 23.199219 18.566406 L 26.101562 18.566406 Z M 30.492188 18.890625 L 30.492188 19.21875 L 27.589844 19.21875 L 27.589844 18.566406 L 30.492188 18.566406 Z M 34.800781 18.890625 L 34.800781 19.21875 L 31.898438 19.21875 L 31.898438 18.566406 L 34.800781 18.566406 Z M 39.191406 18.890625 L 39.191406 19.21875 L 36.292969 19.21875 L 36.292969 18.566406 L 39.191406 18.566406 Z M 43.5 18.890625 L 43.5 19.21875 L 40.601562 19.21875 L 40.601562 18.566406 L 43.5 18.566406 Z M 13.074219 21.023438 L 13.050781 21.375 L 11.625 21.398438 L 10.191406 21.414062 L 10.191406 20.683594 L 13.101562 20.683594 Z M 17.398438 21.050781 L 17.398438 21.414062 L 14.5 21.414062 L 14.5 20.683594 L 17.398438 20.683594 Z M 21.773438 21.023438 L 21.75 21.375 L 20.324219 21.398438 L 18.890625 21.414062 L 18.890625 20.683594 L 21.800781 20.683594 Z M 26.101562 21.050781 L 26.101562 21.414062 L 23.199219 21.414062 L 23.199219 20.683594 L 26.101562 20.683594 Z M 30.476562 21.023438 L 30.449219 21.375 L 29.023438 21.398438 L 27.589844 21.414062 L 27.589844 20.683594 L 30.5 20.683594 Z M 34.800781 21.050781 L 34.800781 21.414062 L 31.898438 21.414062 L 31.898438 20.683594 L 34.800781 20.683594 Z M 39.175781 21.023438 L 39.148438 21.375 L 37.726562 21.398438 L 36.292969 21.414062 L 36.292969 20.683594 L 39.199219 20.683594 Z M 43.5 21.050781 L 43.5 21.414062 L 40.601562 21.414062 L 40.601562 20.683594 L 43.5 20.683594 Z M 13.074219 33.117188 L 13.050781 43.441406 L 11.625 43.464844 L 10.191406 43.484375 L 10.191406 22.800781 L 13.089844 22.800781 Z M 17.398438 33.140625 L 17.398438 43.484375 L 14.5 43.484375 L 14.5 22.800781 L 17.398438 22.800781 Z M 21.773438 33.117188 L 21.75 43.441406 L 20.324219 43.464844 L 18.890625 43.484375 L 18.890625 22.800781 L 21.792969 22.800781 Z M 26.101562 33.140625 L 26.101562 43.484375 L 23.199219 43.484375 L 23.199219 22.800781 L 26.101562 22.800781 Z M 30.476562 33.117188 L 30.449219 43.441406 L 29.023438 43.464844 L 27.589844 43.484375 L 27.589844 22.800781 L 30.492188 22.800781 Z M 34.800781 33.140625 L 34.800781 43.484375 L 31.898438 43.484375 L 31.898438 22.800781 L 34.800781 22.800781 Z M 39.175781 33.117188 L 39.148438 43.441406 L 37.726562 43.464844 L 36.292969 43.484375 L 36.292969 22.800781 L 39.191406 22.800781 Z M 43.5 33.140625 L 43.5 43.484375 L 40.601562 43.484375 L 40.601562 22.800781 L 43.5 22.800781 Z M 8.699219 41.652344 L 8.699219 42.015625 L 7.953125 42.015625 L 7.953125 41.707031 C 7.953125 41.316406 7.988281 41.285156 8.386719 41.285156 L 8.699219 41.285156 Z M 8.699219 41.652344 "></path>
@@ -164,7 +178,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/central-heating/1.jpg" alt="Radiator Heating Systems" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Radiators/R1.jpg'; ?>" alt="Radiator Heating Systems" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -198,7 +212,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/underfloor.jpg" alt="Underfloor Heating" class="img-fluid rounded" style="width: 750px; height: 500px;"> 
+               <img src="<?php echo 'assets/new img/Under Floor/Educational U1.webp'; ?>" alt="Underfloor Heating" class="img-fluid rounded"> 
             </div>
          </div>
       </div>
@@ -391,7 +405,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/central-domestic-hot-water/1.png" alt="Central Domestic Hot Water Systems" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Domestic Hot Water/Boiler 1.webp'; ?>" alt="Central Domestic Hot Water Systems" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -408,7 +422,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/central-domestic-hot-water/2.jpg" alt="Hot Water Comfort" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Domestic Hot Water/Hot Shower 1.jpg'; ?>" alt="Hot Water Comfort" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -455,7 +469,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/mep-projects/1.jpg" alt="MEP Services" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/MEP/MEP 1.webp'; ?>" alt="MEP Services" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -472,7 +486,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/mep-projects/2.jpg" alt="MEP Installation" class="img-fluid rounded" style="width: 750px; height: 500px;">
+               <img src="<?php echo 'assets/new img/MEP/MEP 2.webp'; ?>" alt="MEP Installation" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -520,7 +534,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/swimming-pools-heating/2.jpg" alt="Swimming Pool Heating" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Pool 1.jpg'; ?>" alt="Swimming Pool Heating" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -536,7 +550,71 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/swimming-pools-heating/1.jpg" alt="Luxury Pool Experience" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" alt="Luxury Pool Experience" class="img-fluid rounded">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Heat Pumps Section -->
+<section class="about-wrapper section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
+            <div class="section__heading text-center">
+               <h2 class="section_title">Heat Pumps</h2>
+               <p class="sec_dec">Energy-efficient heating and cooling solutions for year-round comfort</p>
+            </div>
+         </div>
+      </div>
+      
+      <!-- Heat Pump Technology -->
+      <div class="row align-items-center mb-5">
+         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
+            <div class="about-content">
+               <h3 class="about-title">Advanced Heat Pump Technology</h3>
+               <p class="about-text">A heat pump is an energy-efficient system that provides both heating and cooling for your home or business, offering year-round comfort with exceptional efficiency. Instead of generating heat like traditional boilers, it transfers heat from the outside air, ground, or water into your indoor space during winter—and reverses the process in summer to keep you cool.</p>
+               <p class="about-text">Heat pumps dramatically reduce energy consumption, lower utility bills, and provide an eco-friendly alternative to conventional heating systems. They work seamlessly with radiators, underfloor heating, and hot water systems, making them a versatile choice for modern comfort.</p>
+               <div class="about-features">
+                  <div class="feature-item">
+                     <i class="fa-solid fa-check"></i>
+                     <span>Energy-efficient heating and cooling</span>
+                  </div>
+                  <div class="feature-item">
+                     <i class="fa-solid fa-check"></i>
+                     <span>Significant cost savings on utility bills</span>
+                  </div>
+                  <div class="feature-item">
+                     <i class="fa-solid fa-check"></i>
+                     <span>Eco-friendly and sustainable</span>
+                  </div>
+                  <div class="feature-item">
+                     <i class="fa-solid fa-check"></i>
+                     <span>Compatible with existing systems</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+            <div class="about-thumb">
+               <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 1.jpg'; ?>" alt="Heat Pump System" class="img-fluid rounded">
+            </div>
+         </div>
+      </div>
+      
+      <!-- Heat Pump Benefits -->
+      <div class="row align-items-center mb-5 flex-row-reverse">
+         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
+            <div class="about-content">
+               <h3 class="about-title">Future-Ready Comfort Solutions</h3>
+               <p class="about-text">Our heat pump solutions deliver reliable performance while helping you reduce your carbon footprint and energy costs. Experience the future of home comfort with our advanced heat pump technology that provides efficient heating and cooling in one intelligent system.</p>
+               <p class="about-text">Whether for residential or commercial applications, our heat pump installations are designed to maximize efficiency while providing consistent temperature control throughout the year.</p>
+            </div>
+         </div>
+         <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+            <div class="about-thumb">
+               <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 2.jpg'; ?>" alt="Heat Pump Installation" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -549,8 +627,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title"><?php _e('services_heating_products_title'); ?></h2>
-               <p class="sec_dec"><?php _e('services_heating_products_overview'); ?></p>
+               <h2 class="section_title">Heating Products</h2>
+               <p class="sec_dec">Premium heating products that combine comfort, efficiency, and style</p>
             </div>
          </div>
       </div>
@@ -559,31 +637,32 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title"><?php _e('services_products_premium_title'); ?></h3>
-               <p class="about-text"><?php _e('services_products_premium_desc'); ?></p>
+               <h3 class="about-title">Comprehensive Product Range</h3>
+               <p class="about-text">We offer a comprehensive range of heating products designed to bring both comfort and style to your space. Our selection includes baseboards, radiators, towel warmers, digital fireplaces, and more—all chosen for their exceptional efficiency, superior quality, and modern design.</p>
+               <p class="about-text">Whether you're upgrading a single room or outfitting an entire property, our heating products provide reliable warmth while enhancing the look and feel of your home or business.</p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span><?php _e('services_products_feature1'); ?></span>
+                     <span>Premium quality materials</span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span><?php _e('services_products_feature2'); ?></span>
+                     <span>Modern, stylish designs</span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span><?php _e('services_products_feature3'); ?></span>
+                     <span>Energy-efficient operation</span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span><?php _e('services_products_feature4'); ?></span>
+                     <span>Easy installation and maintenance</span>
                   </div>
                </div>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/heating-products/1.jpg" alt="Heating Products" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Products/Radiator 3.jpg'; ?>" alt="Premium Heating Products" class="img-fluid rounded" style="width: 80%; height: 500px; object-fit: cover;">
             </div>
          </div>
       </div>
@@ -592,14 +671,14 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title"><?php _e('services_products_comfort_title'); ?></h3>
-               <p class="about-text"><?php _e('services_products_comfort_desc1'); ?></p>
-               <p class="about-text"><?php _e('services_products_comfort_desc2'); ?></p>
+               <h3 class="about-title">Perfect Combination of Comfort and Style</h3>
+               <p class="about-text">Each product is carefully selected for its performance, durability, and aesthetic appeal, ensuring you get both functionality and style. Our expert team helps you choose the perfect heating products that match your needs, budget, and design preferences.</p>
+               <p class="about-text">Experience the perfect combination of comfort, efficiency, and style with our premium heating product solutions that transform your space into a warm, inviting environment.</p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="assets/img/heating-products/2.jpg" alt="Heating Products Comfort" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new img/Products/Fireplace 1.jpg'; ?>" alt="Heating Products Comfort" class="img-fluid rounded">
             </div>
          </div>
       </div>
