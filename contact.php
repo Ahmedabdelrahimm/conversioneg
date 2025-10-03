@@ -16,12 +16,12 @@
       </div>
    </div>
 </section>
+
 <div class="contact_info-wrapper section-padding">
    <div class="container">
       <div class="row">
          <div class="col-lg-4 col-md-6">
             <div class="tj-single-info wow fadeInUp " data-wow-delay="300ms">
-               <div class="tj-info-head"></div>
                <div class="tj-body">
                   <div class="icon-thumb">
                      <div class="icons"><i class="fa-light fa-phone-volume"></i></div>
@@ -38,7 +38,6 @@
          </div>
          <div class="col-lg-4 col-md-6">
             <div class="tj-single-info wow fadeInUp " data-wow-delay="500ms">
-               <div class="tj-info-head"></div>
                <div class="tj-body">
                   <div class="icon-thumb">
                      <div class="icons"><i class="fa-light fa-envelope-open"></i></div>
@@ -53,7 +52,6 @@
          </div>
          <div class="col-lg-4 col-md-6">
             <div class="tj-single-info wow fadeInUp " data-wow-delay="700ms">
-               <div class="tj-info-head"></div>
                <div class="tj-body">
                   <div class="icon-thumb">
                      <div class="icons"><i class="fa-light fa-map-marked-alt"></i></div>
@@ -68,6 +66,7 @@
       </div>
    </div>
 </div>
+
 <section class="contact-wrapper section-bottom">
    <div class="contact-map" style="height:150px;"></div>
    <div class="container">
@@ -79,32 +78,32 @@
                </div>
             </div>
          </div>
-         <form id="contact-form" class="contact-form">
+         <form id="contact-form" class="contact-form" method="post" action="assets/mail/contact-form-hostinger-smtp.php">
             <div class="row">
                <div class="col-sm-6">
                   <div class="from-group">
-                     <input type="text" class="form-control" name="confname" placeholder="<?php _e('contact_first_name'); ?>">
+                     <input type="text" class="form-control" name="confname" placeholder="<?php _e('contact_first_name'); ?>" required>
                   </div>
                </div>
                <div class="col-sm-6">
                   <div class="from-group">
-                     <input type="text" class="form-control" name="conlname" placeholder="<?php _e('contact_last_name'); ?>">
+                     <input type="text" class="form-control" name="conlname" placeholder="<?php _e('contact_last_name'); ?>" required>
                   </div>
                </div>
                <div class="col-sm-6">
                   <div class="from-group">
-                     <input type="text" class="form-control" name="conPhone" placeholder="<?php _e('contact_phone'); ?>">
+                     <input type="text" class="form-control" name="conPhone" placeholder="<?php _e('contact_phone'); ?>" required>
                   </div>
                </div>
                <div class="col-sm-6">
                   <div class="from-group">
-                     <input type="email" class="form-control" name="conEmail" placeholder="<?php _e('contact_email_address_placeholder'); ?>">
+                     <input type="email" class="form-control" name="conEmail" placeholder="<?php _e('contact_email_address_placeholder'); ?>" required>
                   </div>
                </div>
-                               <div class="col-sm-12 my-2">
+               <div class="col-sm-12 my-2">
                    <div class="from-group">
                       <textarea name="conMessage" class="form-control" cols="30" rows="10"
-                         placeholder="<?php _e('contact_message'); ?>"></textarea>
+                         placeholder="<?php _e('contact_message'); ?>" required></textarea>
                    </div>
                 </div>
                 <input type="hidden" name="conSubject" value="Contact Form Submission">
@@ -161,5 +160,30 @@
       </div>
    </div>
 </div>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    let form = this;
+    let formData = new FormData(form);
+
+    fetch(form.action, {
+        method: 'POST',
+        body: formData
+    })
+    .then(res => res.text())
+    .then(data => {
+        if (data === "Y") {
+            new bootstrap.Modal(document.getElementById('message_sent')).show();
+            form.reset();
+        } else {
+            new bootstrap.Modal(document.getElementById('message_fail')).show();
+        }
+    })
+    .catch(() => {
+        new bootstrap.Modal(document.getElementById('message_fail')).show();
+    });
+});
+</script>
 
 <?php include('footer.php'); ?>

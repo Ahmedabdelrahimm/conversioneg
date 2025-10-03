@@ -25,9 +25,6 @@
                <h2 class="section_title"><?php _e('central_heating'); ?></h2>
                <div class="sec_dec">
                   <p><?php _e('central_heating_desc'); ?></p>
-                  <p>
-                  <?php _e('central_heating_systems_list'); ?>
-                  </p>
                </div>
             </div>
          </div>
@@ -40,12 +37,12 @@
                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.1s">
                      <div class="gallery-image">
-                        <img src="assets/img/central-heating/1.jpg" alt="<?php _e('central_heating_1_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Radiators/R1.jpg" alt="<?php _e('central_heating_1_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('central_heating_1_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('central_heating_1_desc'); ?></p>
-                              <a href="assets/img/central-heating/1.jpg" class="gallery-link" data-fancybox="central-gallery">
+                              <a href="assets/new-img/Radiators/R1.jpg" class="gallery-link" data-fancybox="central-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -57,12 +54,12 @@
                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.2s">
                      <div class="gallery-image">
-                        <img src="assets/img/central-heating/2.jpg" alt="<?php _e('central_heating_2_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Under Floor/Educational U1.webp" alt="<?php _e('central_heating_2_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('central_heating_2_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('central_heating_2_desc'); ?></p>
-                              <a href="assets/img/central-heating/2.jpg" class="gallery-link" data-fancybox="central-gallery">
+                              <a href="assets/new-img/Under Floor/Educational U1.webp" class="gallery-link" data-fancybox="central-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -71,22 +68,6 @@
                   </div>
                </div>
                
-               <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                  <div class="gallery-card wow fadeInUp" data-wow-delay="0.3s">
-                     <div class="gallery-image">
-                        <img src="assets/img/central-heating/3.png" alt="<?php _e('central_heating_3_alt'); ?>" class="img-fluid">
-                        <div class="gallery-overlay">
-                           <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('central_heating_3_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('central_heating_3_desc'); ?></p>
-                              <a href="assets/img/central-heating/3.png" class="gallery-link" data-fancybox="central-gallery">
-                                 <i class="fa-light fa-search-plus"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
                
                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.4s">
@@ -438,6 +419,24 @@ html[dir="rtl"] .section__heading .section_title {
 }
 
 html[dir="rtl"] .section__heading .sec_dec p {
+   text-align: center !important;
+}
+
+/* Ensure main titles are centered across all service pages */
+.project-wrapper .section__heading {
+   text-align: center !important;
+}
+
+.project-wrapper .section__heading .section_title {
+   text-align: center !important;
+   margin: 0 auto;
+}
+
+.project-wrapper .section__heading .sec_dec {
+   text-align: center !important;
+}
+
+.project-wrapper .section__heading .sec_dec p {
    text-align: center !important;
 }
 

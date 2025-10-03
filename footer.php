@@ -6,7 +6,7 @@
                <div class="footer__widget footer3_col_1">
                   <div class="footer_info">
                      <a href="index.php" class="footer__logo_1">
-                     <img src="assets/img/logos/logo.png" alt="logo">
+                     <img src="assets/img/logos/logo white.png" alt="logo">
                      </a>
                      <p><?php _e('footer_tagline'); ?></p>
                   </div>
@@ -20,6 +20,7 @@
                      <li><a href="central-heating.php"><?php _e('central_heating'); ?></a></li>
                      <li><a href="central-domestic-hot-water.php"><?php _e('central_domestic_hot_water'); ?></a></li>
                      <li><a href="swimming-pools-heating.php"><?php _e('swimming_pools_heating'); ?></a></li>
+                     <li><a href="heat-pumps.php"><?php _e('heat_pumps'); ?></a></li>
                      <li><a href="heating-products.php"><?php _e('heating_products'); ?></a></li>
                   </ul>
                </div>

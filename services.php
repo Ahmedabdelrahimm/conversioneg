@@ -1,13 +1,13 @@
 <?php include('header.php'); ?>
 
 <!-- Hero Section -->
-<section class="service-wrapper bg-transparent service-3 section-padding">
-   <div class="container">
+<section class="service-wrapper bg-transparent service-3 section-padding" style="padding-top: 10px;">
+<div class="container">
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp " data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title"><?php _e('services_hero_title'); ?></h2>
-               <p class="sec_dec"><?php _e('services_hero_desc'); ?></p>
+               <h2 class="section_title"><?php _e('home_services_title'); ?></h2>
+               <p class="sec_dec"><?php _e('home_services_desc'); ?></p>
             </div>
          </div>
       </div>
@@ -110,8 +110,8 @@
                         <i class="fa-solid fa-thermometer-half" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="#heat-pumps">Heat Pumps</a></h4>
-                  <p>Energy-efficient heating and cooling solutions for year-round comfort with significant cost savings and eco-friendly operation.</p>
+                  <h4 class="tj_service-name"><a href="heat-pumps.php"><?php _e('heat_pumps'); ?></a></h4>
+                  <p><?php _e('heat_pumps_short_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -133,6 +133,7 @@
                </div>
             </div>
          </div>
+         
       </div>
    </div>
 </section>

@@ -500,6 +500,7 @@
                                     <li><a href="central-heating.php"><?php _e('central_heating'); ?></a></li>
                                     <li><a href="central-domestic-hot-water.php"><?php _e('central_domestic_hot_water'); ?></a></li>
                                     <li><a href="swimming-pools-heating.php"><?php _e('swimming_pools_heating'); ?></a></li>
+                                    <li><a href="heat-pumps.php"><?php _e('heat_pumps'); ?></a></li>
                                     <li><a href="heating-products.php"><?php _e('heating_products'); ?></a></li>
                                  </ul>
                               </li>

@@ -25,7 +25,6 @@
                <h2 class="section_title"><?php _e('central_domestic_hot_water'); ?></h2>
                <div class="sec_dec">
                   <p><?php _e('central_domestic_hot_water_desc'); ?></p>
-                  <p><?php _e('central_domestic_hot_water_systems'); ?></p>
                </div>
             </div>
          </div>
@@ -38,12 +37,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.2s">
                      <div class="gallery-image">
-                        <img src="assets/img/central-domestic-hot-water/1.png" alt="<?php _e('domestic_hot_water_1_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Domestic Hot Water/Boiler 1.webp" alt="<?php _e('domestic_hot_water_1_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('domestic_hot_water_1_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('domestic_hot_water_1_desc'); ?></p>
-                              <a href="assets/img/central-domestic-hot-water/1.png" class="gallery-link" data-fancybox="domestic-gallery">
+                              <a href="assets/new-img/Domestic Hot Water/Boiler 1.webp" class="gallery-link" data-fancybox="domestic-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -266,6 +265,24 @@ html[dir="rtl"] .section__heading .section_title {
 }
 
 html[dir="rtl"] .section__heading .sec_dec p {
+   text-align: center !important;
+}
+
+/* Ensure main titles are centered across all service pages */
+.project-wrapper .section__heading {
+   text-align: center !important;
+}
+
+.project-wrapper .section__heading .section_title {
+   text-align: center !important;
+   margin: 0 auto;
+}
+
+.project-wrapper .section__heading .sec_dec {
+   text-align: center !important;
+}
+
+.project-wrapper .section__heading .sec_dec p {
    text-align: center !important;
 }
 

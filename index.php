@@ -173,8 +173,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="mep-projects.php"><?php _e('mep_projects'); ?></a></h4>
-                  <p><?php _e('mep_projects_desc'); ?></p>
+                  <h4 class="tj_service-name"><a href="mep-projects.php"><?php _e('services_mep_title'); ?></a></h4>
+                  <p><?php _e('services_mep_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -194,8 +194,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="central-heating.php"><?php _e('central_heating'); ?></a></h4>
-                  <p><?php _e('central_heating_desc'); ?></p>
+                  <h4 class="tj_service-name"><a href="central-heating.php"><?php _e('services_central_heating_title'); ?></a></h4>
+                  <p><?php _e('services_central_heating_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -218,8 +218,8 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="central-domestic-hot-water.php"><?php _e('central_domestic_hot_water'); ?></a></h4>
-                  <p><?php _e('central_domestic_hot_water_desc'); ?></p>
+                  <h4 class="tj_service-name"><a href="central-domestic-hot-water.php"><?php _e('services_central_domestic_hot_water_title'); ?></a></h4>
+                  <p><?php _e('services_central_domestic_hot_water_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -238,8 +238,22 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="swimming-pools-heating.php"><?php _e('swimming_pools_heating'); ?></a></h4>
-                  <p><?php _e('swimming_pools_heating_desc'); ?></p>
+                  <h4 class="tj_service-name"><a href="swimming-pools-heating.php"><?php _e('services_swimming_pools_heating_title'); ?></a></h4>
+                  <p><?php _e('services_swimming_pools_heating_desc'); ?></p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 ">
+            <div class="single-service-2 wow fadeInUp " data-wow-delay="0.4s">
+               <div class="service-thumb"></div>
+               <div class="service-content text-center">
+                  <div class="service-icon">
+                     <div class="icons">
+                        <i class="fa-solid fa-thermometer-half" style="font-size: 48px; color: var(--tj-heading-primary);"></i>
+                     </div>
+                  </div>
+                  <h4 class="tj_service-name"><a href="heat-pumps.php"><?php _e('heat_pumps'); ?></a></h4>
+                  <p><?php _e('heat_pumps_short_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -256,12 +270,75 @@
                         </svg>
                      </div>
                   </div>
-                  <h4 class="tj_service-name"><a href="heating-products.php"><?php _e('heating_products'); ?></a></h4>
-                  <p><?php _e('heating_products_desc'); ?></p>
+                  <h4 class="tj_service-name"><a href="heating-products.php"><?php _e('services_heating_products_title'); ?></a></h4>
+                  <p><?php _e('services_heating_products_desc'); ?></p>
                </div>
+            </div>
+         </div>
+         
+      </div>
+   </div>
+</section>
+
+<!-- Partners Section -->
+<section class="partners-wrapper section-padding bg-light">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
+            <div class="section__heading text-center">
+               <h2 class="section_title"><?php _e('our_partners_title'); ?></h2>
+               <p class="sec_dec"><?php _e('our_partners_desc'); ?></p>
+            </div>
+         </div>
+      </div>
+      
+      <div class="partners-slider">
+         <div class="partners-track">
+            <div class="partner-item">
+               <img src="assets/new img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/HENCO.png" alt="Henco" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/FARAL.png" alt="Faral" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/GREE.png" alt="Gree" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/HENCO.png" alt="Henco" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/FARAL.png" alt="Faral" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/GREE.png" alt="Gree" class="img-fluid">
+            </div>
+            <div class="partner-item">
+               <img src="assets/new img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
             </div>
          </div>
       </div>
    </div>
 </section>
+
 <?php include('footer.php'); ?>

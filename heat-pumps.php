@@ -8,10 +8,10 @@
                   <ul>
                      <li><a href="index.php"><?php _e('home'); ?></a></li>
                      <li><a href="services.php"><?php _e('services_products'); ?></a></li>
-                     <li><?php _e('swimming_pools_heating'); ?></li>
+                     <li><?php _e('heat_pumps'); ?></li>
                   </ul>
                </div>
-               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('swimming_pools_heating'); ?></h2>
+               <h2 class="title wow fadeInUp " data-wow-delay="300ms"><?php _e('heat_pumps'); ?></h2>
             </div>
          </div>
       </div>
@@ -22,9 +22,9 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3">
             <div class="section__heading text-center wow fadeInUp " data-wow-delay="300ms">
-               <h2 class="section_title"><?php _e('swimming_pools_and_jacuzzi'); ?></h2>
+               <h2 class="section_title"><?php _e('heat_pumps'); ?></h2>
                <div class="sec_dec">
-                  <p><?php _e('swimming_pools_heating_desc'); ?></p>
+                  <p><?php _e('heat_pumps_desc'); ?></p>
                </div>
             </div>
          </div>
@@ -37,12 +37,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.2s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Pool 1.jpg" alt="<?php _e('swimming_pools_1_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 1.jpg" alt="<?php _e('heat_pump_1_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_1_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_1_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Pool 1.jpg" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_1_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_1_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 1.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -54,12 +54,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.3s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Jacuzzi 1.jpg" alt="<?php _e('swimming_pools_2_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 2.jpg" alt="<?php _e('heat_pump_2_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_2_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_2_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Jacuzzi 1.jpg" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_2_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_2_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 2.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -71,12 +71,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.4s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Jacuzzi 2.jpg" alt="<?php _e('swimming_pools_3_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 3.jpg" alt="<?php _e('heat_pump_3_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_3_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_3_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Jacuzzi 2.jpg" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_3_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_3_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 3.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -88,12 +88,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.5s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Jacuzzi 3.jpg" alt="<?php _e('swimming_pools_4_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 4.png" alt="<?php _e('heat_pump_4_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_4_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_4_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Jacuzzi 3.jpg" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_4_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_4_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 4.png" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -105,12 +105,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.6s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Jacuzzi 4.webp" alt="<?php _e('swimming_pools_5_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 5.jpg" alt="<?php _e('heat_pump_5_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_5_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_5_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Jacuzzi 4.webp" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_5_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_5_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 5.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -122,46 +122,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.7s">
                      <div class="gallery-image">
-                        <img src="assets/new-img/Pools & Jacuzzi/Educational Pool 1.png" alt="<?php _e('swimming_pools_6_alt'); ?>" class="img-fluid">
+                        <img src="assets/new img/Heat Pump/Heat Pump 6.jpg" alt="<?php _e('heat_pump_6_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_6_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_6_desc'); ?></p>
-                              <a href="assets/new-img/Pools & Jacuzzi/Educational Pool 1.png" class="gallery-link" data-fancybox="swimming-gallery">
-                                 <i class="fa-light fa-search-plus"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               
-               <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="gallery-card wow fadeInUp" data-wow-delay="0.8s">
-                     <div class="gallery-image">
-                        <img src="assets/img/swimming-pools-heating/1.jpg" alt="<?php _e('swimming_pools_7_alt'); ?>" class="img-fluid">
-                        <div class="gallery-overlay">
-                           <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_7_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_7_desc'); ?></p>
-                              <a href="assets/img/swimming-pools-heating/1.jpg" class="gallery-link" data-fancybox="swimming-gallery">
-                                 <i class="fa-light fa-search-plus"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               
-               <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="gallery-card wow fadeInUp" data-wow-delay="0.9s">
-                     <div class="gallery-image">
-                        <img src="assets/img/swimming-pools-heating/2.jpg" alt="<?php _e('swimming_pools_8_alt'); ?>" class="img-fluid">
-                        <div class="gallery-overlay">
-                           <div class="overlay-content">
-                              <h4 style="color: white !important; text-align: center;"><?php _e('swimming_pools_8_title'); ?></h4>
-                              <p style="color: white !important; text-align: center;"><?php _e('swimming_pools_8_desc'); ?></p>
-                              <a href="assets/img/swimming-pools-heating/2.jpg" class="gallery-link" data-fancybox="swimming-gallery">
+                              <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_6_title'); ?></h4>
+                              <p style="color: white !important; text-align: center;"><?php _e('heat_pump_6_desc'); ?></p>
+                              <a href="assets/new img/Heat Pump/Heat Pump 6.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -176,7 +142,7 @@
 </section>
 
 <style>
-/* Gallery Styles for Swimming Pools Heating */
+/* Gallery Styles for Heat Pumps */
 .gallery-card {
    position: relative;
    border-radius: 12px;
