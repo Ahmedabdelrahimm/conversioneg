@@ -295,46 +295,46 @@
       <div class="partners-slider">
          <div class="partners-track">
             <div class="partner-item">
-               <img src="assets/new img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
+               <img src="assets/new-img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
+               <img src="assets/new-img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/HENCO.png" alt="Henco" class="img-fluid">
+               <img src="assets/new-img/Partners/HENCO.png" alt="Henco" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/FARAL.png" alt="Faral" class="img-fluid">
+               <img src="assets/new-img/Partners/FARAL.png" alt="Faral" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
+               <img src="assets/new-img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/GREE.png" alt="Gree" class="img-fluid">
+               <img src="assets/new-img/Partners/GREE.png" alt="Gree" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
+               <img src="assets/new-img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
+               <img src="assets/new-img/Partners/STYLEBOILER.png" alt="Style Boiler" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
+               <img src="assets/new-img/Partners/JUNKERS.png" alt="Junkers" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/HENCO.png" alt="Henco" class="img-fluid">
+               <img src="assets/new-img/Partners/HENCO.png" alt="Henco" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/FARAL.png" alt="Faral" class="img-fluid">
+               <img src="assets/new-img/Partners/FARAL.png" alt="Faral" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
+               <img src="assets/new-img/Partners/FRESH.png" alt="Fresh" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/GREE.png" alt="Gree" class="img-fluid">
+               <img src="assets/new-img/Partners/GREE.png" alt="Gree" class="img-fluid">
             </div>
             <div class="partner-item">
-               <img src="assets/new img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
+               <img src="assets/new-img/Partners/De Dietrich.png" alt="De Dietrich" class="img-fluid">
             </div>
          </div>
       </div>

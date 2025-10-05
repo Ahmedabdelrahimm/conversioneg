@@ -78,7 +78,7 @@
                </div>
             </div>
          </div>
-         <form id="contact-form" class="contact-form" method="post" action="assets/mail/contact-form-hostinger-smtp.php">
+         <form id="contact-form" class="contact-form" method="post" action="assets/mail/contact-form-hostinger-smtp.php" data-ajax="false" novalidate>
             <div class="row">
                <div class="col-sm-6">
                   <div class="from-group">
@@ -162,26 +162,96 @@
 </div>
 
 <script>
-document.getElementById('contact-form').addEventListener('submit', function(e) {
+// Our custom form handler (no jQuery dependency)
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contact-form');
+    if (!contactForm) return;
+    
+    // Remove any existing validation or event listeners
+    contactForm.removeAttribute('data-validate');
+    contactForm.setAttribute('novalidate', 'true');
+    
+    // Remove any jQuery validation if it exists
+    if (typeof $ !== 'undefined' && $.fn.validate) {
+        try {
+            $(contactForm).off('.validate');
+            $(contactForm).removeData('validator');
+        } catch(e) {
+            console.log('jQuery validation cleanup failed:', e);
+        }
+    }
+    
+    contactForm.addEventListener('submit', function(e) {
+    console.log('Custom form handler triggered');
     e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    
     let form = this;
+    let submitButton = form.querySelector('button[type="submit"]');
+    
+    // Prevent double submission
+    if (submitButton.disabled) {
+        return false;
+    }
+    
+    // Disable submit button
+    submitButton.disabled = true;
+    submitButton.innerHTML = 'Sending... <i class="fa-light fa-spinner fa-spin"></i>';
+    
     let formData = new FormData(form);
 
     fetch(form.action, {
         method: 'POST',
         body: formData
     })
-    .then(res => res.text())
-    .then(data => {
-        if (data === "Y") {
-            new bootstrap.Modal(document.getElementById('message_sent')).show();
-            form.reset();
-        } else {
+    .then(res => {
+        console.log('Response status:', res.status);
+        console.log('Response headers:', res.headers);
+        return res.text(); // Get as text first to debug
+    })
+    .then(text => {
+        console.log('Raw response:', text);
+        console.log('Response length:', text.length);
+        console.log('Response type:', typeof text);
+        console.log('First 100 chars:', text.substring(0, 100));
+        console.log('Last 100 chars:', text.substring(Math.max(0, text.length - 100)));
+        
+        try {
+            const data = JSON.parse(text);
+            console.log('Parsed JSON:', data);
+            console.log('Status value:', data.status);
+            console.log('Status type:', typeof data.status);
+            console.log('Status === "success":', data.status === "success");
+            
+            if (data.status === "success") {
+                console.log('Showing success modal');
+                const successModal = new bootstrap.Modal(document.getElementById('message_sent'));
+                successModal.show();
+                form.reset();
+            } else {
+                console.log('Showing error modal - status was:', data.status);
+                const errorModal = new bootstrap.Modal(document.getElementById('message_fail'));
+                errorModal.show();
+            }
+        } catch (e) {
+            console.log('JSON parse error:', e);
+            console.log('Response was not JSON:', text);
+            console.log('Character codes:', Array.from(text).map(c => c.charCodeAt(0)).slice(0, 50));
             new bootstrap.Modal(document.getElementById('message_fail')).show();
         }
     })
-    .catch(() => {
+    .catch(error => {
+        console.log('Fetch error:', error);
         new bootstrap.Modal(document.getElementById('message_fail')).show();
+    })
+    .finally(() => {
+        // Re-enable submit button
+        submitButton.disabled = false;
+        submitButton.innerHTML = '<?php _e('contact_send'); ?> <i class="fa-light fa-arrow-right-long"></i>';
+    });
+    
+    return false; // Prevent any other form handlers
     });
 });
 </script>

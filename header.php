@@ -410,6 +410,18 @@
             </div>
             <div class="hamburger_menu">
                <div class="mobile_menu"></div>
+               <!-- Mobile Language Switcher -->
+               <div class="mobile-language-switcher" style="padding: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                  <h4 class="title" style="color: white; margin-bottom: 15px;"><?php _e('language'); ?></h4>
+                  <div class="language-switcher" style="display: flex; gap: 15px;">
+                     <a href="<?php echo getLanguageUrl('en'); ?>" class="lang-option <?php echo getCurrentLanguage() === 'en' ? 'active' : ''; ?>" style="padding: 10px 15px; background: <?php echo getCurrentLanguage() === 'en' ? 'rgba(255,255,255,0.2)' : 'transparent'; ?>; border: 1px solid rgba(255,255,255,0.3); border-radius: 5px; color: white; text-decoration: none; transition: all 0.3s ease;">
+                        English
+                     </a>
+                     <a href="<?php echo getLanguageUrl('ar'); ?>" class="lang-option <?php echo getCurrentLanguage() === 'ar' ? 'active' : ''; ?>" style="padding: 10px 15px; background: <?php echo getCurrentLanguage() === 'ar' ? 'rgba(255,255,255,0.2)' : 'transparent'; ?>; border: 1px solid rgba(255,255,255,0.3); border-radius: 5px; color: white; text-decoration: none; transition: all 0.3s ease;">
+                        العربية
+                     </a>
+                  </div>
+               </div>
             </div>
             <div class="hamburger_bottom">
                <div class="contact_info">

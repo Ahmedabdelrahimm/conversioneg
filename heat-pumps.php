@@ -37,12 +37,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.2s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 1.jpg" alt="<?php _e('heat_pump_1_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 1.jpg" alt="<?php _e('heat_pump_1_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_1_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_1_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 1.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 1.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -54,12 +54,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.3s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 2.jpg" alt="<?php _e('heat_pump_2_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 2.jpg" alt="<?php _e('heat_pump_2_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_2_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_2_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 2.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 2.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -71,12 +71,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.4s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 3.jpg" alt="<?php _e('heat_pump_3_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 3.jpg" alt="<?php _e('heat_pump_3_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_3_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_3_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 3.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 3.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -88,12 +88,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.5s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 4.png" alt="<?php _e('heat_pump_4_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 4.png" alt="<?php _e('heat_pump_4_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_4_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_4_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 4.png" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 4.png" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -105,12 +105,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.6s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 5.jpg" alt="<?php _e('heat_pump_5_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 5.jpg" alt="<?php _e('heat_pump_5_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_5_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_5_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 5.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 5.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>
@@ -122,12 +122,12 @@
                <div class="col-lg-4 col-md-6 mb-4">
                   <div class="gallery-card wow fadeInUp" data-wow-delay="0.7s">
                      <div class="gallery-image">
-                        <img src="assets/new img/Heat Pump/Heat Pump 6.jpg" alt="<?php _e('heat_pump_6_alt'); ?>" class="img-fluid">
+                        <img src="assets/new-img/Heat Pump/Heat Pump 6.jpg" alt="<?php _e('heat_pump_6_alt'); ?>" class="img-fluid">
                         <div class="gallery-overlay">
                            <div class="overlay-content">
                               <h4 style="color: white !important; text-align: center;"><?php _e('heat_pump_6_title'); ?></h4>
                               <p style="color: white !important; text-align: center;"><?php _e('heat_pump_6_desc'); ?></p>
-                              <a href="assets/new img/Heat Pump/Heat Pump 6.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
+                              <a href="assets/new-img/Heat Pump/Heat Pump 6.jpg" class="gallery-link" data-fancybox="heat-pump-gallery">
                                  <i class="fa-light fa-search-plus"></i>
                               </a>
                            </div>

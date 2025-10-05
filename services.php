@@ -1,5 +1,24 @@
 <?php include('header.php'); ?>
 
+<!-- Breadcrumb Section -->
+<section class="breadcrumb-wrapper hero-page bg-cover" data-bg-image="assets/img/breadcrumb.png">
+   <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <div class="breadcrumb-content">
+               <div class="breadcrumb__link">
+                  <ul>
+                     <li><a href="index.php"><?php _e('home'); ?> </a></li>
+                     <li><?php _e('services'); ?></li>
+                  </ul>
+               </div>
+               <h2 class="title  wow fadeInUp " data-wow-delay="300ms"><?php _e('services'); ?></h2>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 <!-- Hero Section -->
 <section class="service-wrapper bg-transparent service-3 section-padding" style="padding-top: 10px;">
 <div class="container">
@@ -179,7 +198,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Radiators/R1.jpg'; ?>" alt="Radiator Heating Systems" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Radiators/R1.jpg'; ?>" alt="Radiator Heating Systems" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -213,7 +232,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Under Floor/Educational U1.webp'; ?>" alt="Underfloor Heating" class="img-fluid rounded"> 
+               <img src="<?php echo 'assets/new-img/Under Floor/Educational U1.webp'; ?>" alt="Underfloor Heating" class="img-fluid rounded"> 
             </div>
          </div>
       </div>
@@ -406,7 +425,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Domestic Hot Water/Boiler 1.webp'; ?>" alt="Central Domestic Hot Water Systems" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Domestic Hot Water/Boiler 1.webp'; ?>" alt="Central Domestic Hot Water Systems" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -423,7 +442,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Domestic Hot Water/Hot Shower 1.jpg'; ?>" alt="Hot Water Comfort" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Domestic Hot Water/Hot Shower 1.jpg'; ?>" alt="Hot Water Comfort" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -470,7 +489,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/MEP/MEP 1.webp'; ?>" alt="MEP Services" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/MEP/MEP 1.webp'; ?>" alt="MEP Services" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -487,7 +506,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/MEP/MEP 2.webp'; ?>" alt="MEP Installation" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/MEP/MEP 2.webp'; ?>" alt="MEP Installation" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -535,7 +554,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Pool 1.jpg'; ?>" alt="Swimming Pool Heating" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Pool 1.jpg'; ?>" alt="Swimming Pool Heating" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -551,7 +570,7 @@
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" alt="Luxury Pool Experience" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" alt="Luxury Pool Experience" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -564,8 +583,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Heat Pumps</h2>
-               <p class="sec_dec">Energy-efficient heating and cooling solutions for year-round comfort</p>
+               <h2 class="section_title"><?php _e('heat_pumps'); ?></h2>
+               <p class="sec_dec"><?php _e('heat_pumps_short_desc'); ?></p>
             </div>
          </div>
       </div>
@@ -574,32 +593,31 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Advanced Heat Pump Technology</h3>
-               <p class="about-text">A heat pump is an energy-efficient system that provides both heating and cooling for your home or business, offering year-round comfort with exceptional efficiency. Instead of generating heat like traditional boilers, it transfers heat from the outside air, ground, or water into your indoor space during winter—and reverses the process in summer to keep you cool.</p>
-               <p class="about-text">Heat pumps dramatically reduce energy consumption, lower utility bills, and provide an eco-friendly alternative to conventional heating systems. They work seamlessly with radiators, underfloor heating, and hot water systems, making them a versatile choice for modern comfort.</p>
+               <h3 class="about-title"><?php _e('services_heat_pumps_technology_title'); ?></h3>
+               <p class="about-text"><?php _e('heat_pumps_desc'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Energy-efficient heating and cooling</span>
+                     <span><?php _e('services_heat_pumps_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Significant cost savings on utility bills</span>
+                     <span><?php _e('services_heat_pumps_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Eco-friendly and sustainable</span>
+                     <span><?php _e('services_heat_pumps_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Compatible with existing systems</span>
+                     <span><?php _e('services_heat_pumps_feature4'); ?></span>
                   </div>
                </div>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 1.jpg'; ?>" alt="Heat Pump System" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Heat Pump/Heat Pump 1.jpg'; ?>" alt="Heat Pump System" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -608,14 +626,14 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Future-Ready Comfort Solutions</h3>
-               <p class="about-text">Our heat pump solutions deliver reliable performance while helping you reduce your carbon footprint and energy costs. Experience the future of home comfort with our advanced heat pump technology that provides efficient heating and cooling in one intelligent system.</p>
-               <p class="about-text">Whether for residential or commercial applications, our heat pump installations are designed to maximize efficiency while providing consistent temperature control throughout the year.</p>
+               <h3 class="about-title"><?php _e('services_heat_pumps_benefits_title'); ?></h3>
+               <p class="about-text"><?php _e('services_heat_pumps_benefits_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_heat_pumps_benefits_desc2'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 2.jpg'; ?>" alt="Heat Pump Installation" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Heat Pump/Heat Pump 2.jpg'; ?>" alt="Heat Pump Installation" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -628,8 +646,8 @@
       <div class="row">
          <div class="col-xl-6 offset-xl-3 wow fadeInUp" data-wow-delay="300ms">
             <div class="section__heading text-center">
-               <h2 class="section_title">Heating Products</h2>
-               <p class="sec_dec">Premium heating products that combine comfort, efficiency, and style</p>
+               <h2 class="section_title"><?php _e('services_heating_products_section_title'); ?></h2>
+               <p class="sec_dec"><?php _e('services_heating_products_section_desc'); ?></p>
             </div>
          </div>
       </div>
@@ -638,32 +656,32 @@
       <div class="row align-items-center mb-5">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Comprehensive Product Range</h3>
-               <p class="about-text">We offer a comprehensive range of heating products designed to bring both comfort and style to your space. Our selection includes baseboards, radiators, towel warmers, digital fireplaces, and more—all chosen for their exceptional efficiency, superior quality, and modern design.</p>
-               <p class="about-text">Whether you're upgrading a single room or outfitting an entire property, our heating products provide reliable warmth while enhancing the look and feel of your home or business.</p>
+               <h3 class="about-title"><?php _e('services_heating_products_comprehensive_title'); ?></h3>
+               <p class="about-text"><?php _e('services_heating_products_comprehensive_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_heating_products_comprehensive_desc2'); ?></p>
                <div class="about-features">
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Premium quality materials</span>
+                     <span><?php _e('services_heating_products_feature1'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Modern, stylish designs</span>
+                     <span><?php _e('services_heating_products_feature2'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Energy-efficient operation</span>
+                     <span><?php _e('services_heating_products_feature3'); ?></span>
                   </div>
                   <div class="feature-item">
                      <i class="fa-solid fa-check"></i>
-                     <span>Easy installation and maintenance</span>
+                     <span><?php _e('services_heating_products_feature4'); ?></span>
                   </div>
                </div>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Products/Radiator 3.jpg'; ?>" alt="Premium Heating Products" class="img-fluid rounded" style="width: 80%; height: 500px; object-fit: cover;">
+               <img src="<?php echo 'assets/new-img/Products/Radiator 3.jpg'; ?>" alt="Premium Heating Products" class="img-fluid rounded" style="width: 80%; height: 500px; object-fit: cover;">
             </div>
          </div>
       </div>
@@ -672,14 +690,14 @@
       <div class="row align-items-center mb-5 flex-row-reverse">
          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="400ms">
             <div class="about-content">
-               <h3 class="about-title">Perfect Combination of Comfort and Style</h3>
-               <p class="about-text">Each product is carefully selected for its performance, durability, and aesthetic appeal, ensuring you get both functionality and style. Our expert team helps you choose the perfect heating products that match your needs, budget, and design preferences.</p>
-               <p class="about-text">Experience the perfect combination of comfort, efficiency, and style with our premium heating product solutions that transform your space into a warm, inviting environment.</p>
+               <h3 class="about-title"><?php _e('services_heating_products_comfort_title'); ?></h3>
+               <p class="about-text"><?php _e('services_heating_products_comfort_desc1'); ?></p>
+               <p class="about-text"><?php _e('services_heating_products_comfort_desc2'); ?></p>
             </div>
          </div>
          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div class="about-thumb">
-               <img src="<?php echo 'assets/new img/Products/Fireplace 1.jpg'; ?>" alt="Heating Products Comfort" class="img-fluid rounded">
+               <img src="<?php echo 'assets/new-img/Products/Fireplace 1.jpg'; ?>" alt="Heating Products Comfort" class="img-fluid rounded">
             </div>
          </div>
       </div>
@@ -696,7 +714,7 @@
          </div>
          <div class="col-md-4 text-center text-md-end wow fadeInRight mt-4 mt-lg-0" data-wow-delay="0.6s">
             <div class="cta-btn">
-               <a href="contact.php" class="tj-btn-primary style-2">Get Quote<i
+               <a href="contact.php" class="tj-btn-primary style-2"><?php _e('get_quote'); ?><i
                   class="fa-light fa-arrow-right-long"></i></a>
             </div>
          </div>

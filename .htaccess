@@ -6,3 +6,33 @@
   AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+# URL Rewriting for Clean URLs
+RewriteEngine On
+
+# Exclude mail handlers and form submissions from clean URL rewrites
+RewriteCond %{REQUEST_URI} ^/assets/mail/ [NC]
+RewriteRule .* - [L]
+
+# Exclude form submissions and AJAX requests
+RewriteCond %{REQUEST_METHOD} POST [NC]
+RewriteRule .* - [L]
+
+# Exclude files with .php extension in assets folder
+RewriteCond %{REQUEST_URI} ^/assets/.*\.php$ [NC]
+RewriteRule .* - [L]
+
+# Remove .php extension from URLs (only for main pages)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Redirect index.php to root
+RewriteCond %{THE_REQUEST} /index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Redirect other .php files to clean URLs (exclude assets)
+RewriteCond %{THE_REQUEST} \s/+([^?\s]*?)\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteRule ^ /%1? [R=301,L]

@@ -478,41 +478,8 @@
 	/* =============================================
 				17. Form Submission
 	===============================================*/
-			if ($("#contact-form").length > 0) {
-		$("#contact-form").validate({
-			rules: {
-				confname: "required",
-				conEmail: {
-					required: true,
-					email: true,
-				},
-				conMessage: "required",
-			},
-
-			messages: {
-				confname: "Enter your first name.",
-				conEmail: "Enter a valid email.",
-				conMessage: "Enter your message.",
-			},
-			submitHandler: function (form) {
-				// start ajax request
-				$.ajax({
-					type: "POST",
-					url: "assets/mail/contact-form-hostinger-smtp.php",
-					data: $("#contact-form").serialize(),
-					cache: false,
-					success: function (data) {
-						if (data == "Y") {
-							$("#message_sent").modal("show");
-							$("#contact-form").trigger("reset");
-						} else {
-							$("#message_fail").modal("show");
-						}
-					},
-				});
-			},
-		});
-	}
+			// Contact form handler removed - using custom handler in contact.php instead
+			// if ($("#contact-form").length > 0) { ... }
 
 	// inspection 1 form
 	if ($("#inspection-form").length > 0) {

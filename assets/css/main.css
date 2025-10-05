@@ -1227,11 +1227,15 @@ label.error {
 	font-weight: var(--tj-fw-bold);
 	font-size: 48px;
 	color: var(--tj-heading-primary);
+	text-align: center !important;
+	direction: ltr;
 	margin-bottom: 20px;
 }
 .section__heading .sec_dec {
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center !important;
+	direction: ltr;
 	max-width: 553px;
 	width: 100%;
 }
@@ -9112,6 +9116,80 @@ footer .footer-home-bottom {
 	.partners-track {
 		gap: 20px;
 	}
+}
+
+/* Fix for Arabic text alignment - ensure titles stay centered */
+.section_title,
+.about-title,
+.tj_service-name,
+h1, h2, h3, h4, h5, h6 {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+}
+
+/* Ensure centered text for all heading elements */
+.section__heading .section_title,
+.section__heading .sec_dec,
+.about-content .about-title,
+.single-service-2 .tj_service-name {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+}
+
+/* Fix for gallery overlay titles */
+.overlay-content h4 {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+}
+
+/* Additional specific fixes for Arabic text centering */
+[dir="rtl"] .section_title,
+[dir="rtl"] .about-title,
+[dir="rtl"] .tj_service-name,
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+}
+
+/* Force center alignment for all text elements */
+* {
+	unicode-bidi: normal;
+}
+
+.section_title, .about-title, .tj_service-name, h1, h2, h3, h4, h5, h6 {
+	unicode-bidi: bidi-override !important;
+	text-align: center !important;
+	direction: ltr !important;
+}
+
+/* Ultra-specific targeting for Arabic text centering */
+body[dir="rtl"] .section_title,
+body[dir="rtl"] .about-title,
+body[dir="rtl"] .tj_service-name,
+html[dir="rtl"] .section_title,
+html[dir="rtl"] .about-title,
+html[dir="rtl"] .tj_service-name,
+.section__heading[dir="rtl"] .section_title,
+.section__heading[dir="rtl"] .sec_dec {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+	writing-mode: horizontal-tb !important;
+}
+
+/* Force all titles to be centered regardless of language */
+.title,
+.section_title,
+.about-title,
+.tj_service-name {
+	text-align: center !important;
+	direction: ltr !important;
+	unicode-bidi: bidi-override !important;
+	writing-mode: horizontal-tb !important;
 }
 
 /*# sourceMappingURL=main.css.map */

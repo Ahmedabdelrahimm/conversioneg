@@ -48,12 +48,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.2s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Radiators/R1.jpg'; ?>" alt="Modern Radiator System" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Radiators/R1.jpg'; ?>" alt="Modern Radiator System" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Central Heating Systems</h4>
-                        <p style="color: white !important;">Professional heating solutions for optimal comfort and energy efficiency</p>
-                        <a href="<?php echo 'assets/new img/Radiators/R1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_central_heating_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_central_heating_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Radiators/R1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -65,12 +65,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.3s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Under Floor/Educational U1.webp'; ?>" alt="Underfloor Heating System" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Under Floor/Educational U1.webp'; ?>" alt="Underfloor Heating System" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Underfloor Heating</h4>
-                        <p style="color: white !important;">Efficient and comfortable heating solutions for modern homes</p>
-                        <a href="<?php echo 'assets/new img/Under Floor/Educational U1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_underfloor_heating_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_underfloor_heating_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Under Floor/Educational U1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -82,12 +82,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.4s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 1.jpg'; ?>" alt="Heat Pump System" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Heat Pump/Heat Pump 1.jpg'; ?>" alt="Heat Pump System" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Heat Pump Systems</h4>
-                        <p style="color: white !important;">Energy-efficient heating and cooling solutions for year-round comfort</p>
-                        <a href="<?php echo 'assets/new img/Heat Pump/Heat Pump 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_heat_pump_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_heat_pump_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Heat Pump/Heat Pump 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -99,12 +99,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.5s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Domestic Hot Water/Boiler 1.webp'; ?>" alt="Hot Water Systems" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Domestic Hot Water/Boiler 1.webp'; ?>" alt="Hot Water Systems" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Hot Water Systems</h4>
-                        <p style="color: white !important;">Reliable and efficient hot water solutions for your home</p>
-                        <a href="<?php echo 'assets/new img/Domestic Hot Water/Boiler 1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_hot_water_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_hot_water_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Domestic Hot Water/Boiler 1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -116,12 +116,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.6s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Radiators/R2.jpg'; ?>" alt="Modern Radiator Design" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Radiators/R2.jpg'; ?>" alt="Modern Radiator Design" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Modern Radiator Design</h4>
-                        <p style="color: white !important;">Contemporary radiators combining style and efficiency</p>
-                        <a href="<?php echo 'assets/new img/Radiators/R2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_modern_radiator_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_modern_radiator_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Radiators/R2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -133,12 +133,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.7s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Heat Pump/Heat Pump 2.jpg'; ?>" alt="Advanced Heat Pump" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Heat Pump/Heat Pump 2.jpg'; ?>" alt="Advanced Heat Pump" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Advanced Heat Pump</h4>
-                        <p style="color: white !important;">Cutting-edge heat pump technology for maximum efficiency</p>
-                        <a href="<?php echo 'assets/new img/Heat Pump/Heat Pump 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_advanced_heat_pump_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_advanced_heat_pump_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Heat Pump/Heat Pump 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -150,12 +150,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item heating" data-category="heating">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.8s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Under Floor/U2.webp'; ?>" alt="Underfloor Heating Installation" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Under Floor/U2.webp'; ?>" alt="Underfloor Heating Installation" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Underfloor Heating Installation</h4>
-                        <p style="color: white !important;">Professional installation of radiant floor heating systems</p>
-                        <a href="<?php echo 'assets/new img/Under Floor/U2.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_underfloor_installation_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_underfloor_installation_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Under Floor/U2.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -168,12 +168,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item mep" data-category="mep">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.6s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/MEP/MEP 1.webp'; ?>" alt="MEP Engineering Systems" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/MEP/MEP 1.webp'; ?>" alt="MEP Engineering Systems" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">MEP Engineering</h4>
-                        <p style="color: white !important;">Complete MEP solutions for modern buildings</p>
-                        <a href="<?php echo 'assets/new img/MEP/MEP 1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_mep_engineering_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_mep_engineering_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/MEP/MEP 1.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -185,12 +185,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item mep" data-category="mep">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.7s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/MEP/MEP 2.webp'; ?>" alt="MEP Installation" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/MEP/MEP 2.webp'; ?>" alt="MEP Installation" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">MEP Installation</h4>
-                        <p style="color: white !important;">Professional MEP system installation and maintenance</p>
-                        <a href="<?php echo 'assets/new img/MEP/MEP 2.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_mep_installation_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_mep_installation_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/MEP/MEP 2.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -204,12 +204,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item products" data-category="products">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.8s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Products/Radiator 1.jpg'; ?>" alt="Premium Heating Products" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Products/Radiator 1.jpg'; ?>" alt="Premium Heating Products" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Premium Radiators</h4>
-                        <p style="color: white !important;">High-quality radiators for efficient heating</p>
-                        <a href="<?php echo 'assets/new img/Products/Radiator 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_premium_radiators_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_premium_radiators_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Products/Radiator 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -221,12 +221,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item products" data-category="products">
             <div class="gallery-card wow fadeInUp" data-wow-delay="0.9s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Products/Fireplace 1.jpg'; ?>" alt="Modern Fireplaces" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Products/Fireplace 1.jpg'; ?>" alt="Modern Fireplaces" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Modern Fireplaces</h4>
-                        <p style="color: white !important;">Stylish and efficient fireplace solutions</p>
-                        <a href="<?php echo 'assets/new img/Products/Fireplace 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_modern_fireplaces_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_modern_fireplaces_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Products/Fireplace 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -238,12 +238,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item products" data-category="products">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.0s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Products/Radiator 2.jpg'; ?>" alt="Designer Radiators" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Products/Radiator 2.jpg'; ?>" alt="Designer Radiators" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Designer Radiators</h4>
-                        <p style="color: white !important;">Elegant radiators that combine form and function</p>
-                        <a href="<?php echo 'assets/new img/Products/Radiator 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_designer_radiators_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_designer_radiators_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Products/Radiator 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -255,12 +255,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item products" data-category="products">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.1s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Products/Radiator 3.jpg'; ?>" alt="Premium Heating Solutions" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Products/Radiator 3.jpg'; ?>" alt="Premium Heating Solutions" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Premium Heating Solutions</h4>
-                        <p style="color: white !important;">High-end heating products for luxury homes</p>
-                        <a href="<?php echo 'assets/new img/Products/Radiator 3.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_premium_heating_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_premium_heating_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Products/Radiator 3.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -272,12 +272,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item products" data-category="products">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.2s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Products/Fireplace 2.jpg'; ?>" alt="Electric Fireplaces" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Products/Fireplace 2.jpg'; ?>" alt="Electric Fireplaces" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Electric Fireplaces</h4>
-                        <p style="color: white !important;">Modern electric fireplace solutions for any space</p>
-                        <a href="<?php echo 'assets/new img/Products/Fireplace 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_electric_fireplaces_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_electric_fireplaces_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Products/Fireplace 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -290,12 +290,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item towel-warmers" data-category="towel-warmers">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.0s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Towel Warmers/T1.jpg'; ?>" alt="Premium Towel Warmers" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Towel Warmers/T1.jpg'; ?>" alt="Premium Towel Warmers" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Premium Towel Warmers</h4>
-                        <p style="color: white !important;">Luxury towel warmers for ultimate comfort</p>
-                        <a href="<?php echo 'assets/new img/Towel Warmers/T1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_premium_towel_warmers_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_premium_towel_warmers_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Towel Warmers/T1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -307,12 +307,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item towel-warmers" data-category="towel-warmers">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.1s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Towel Warmers/T2.jpg'; ?>" alt="Modern Towel Warmers" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Towel Warmers/T2.jpg'; ?>" alt="Modern Towel Warmers" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Modern Towel Warmers</h4>
-                        <p style="color: white !important;">Contemporary design meets functionality</p>
-                        <a href="<?php echo 'assets/new img/Towel Warmers/T2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_modern_towel_warmers_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_modern_towel_warmers_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Towel Warmers/T2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -324,12 +324,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item towel-warmers" data-category="towel-warmers">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.2s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Towel Warmers/T3.webp'; ?>" alt="Luxury Towel Warmers" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Towel Warmers/T3.webp'; ?>" alt="Luxury Towel Warmers" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Luxury Towel Warmers</h4>
-                        <p style="color: white !important;">Premium towel warmers for ultimate comfort</p>
-                        <a href="<?php echo 'assets/new img/Towel Warmers/T3.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_luxury_towel_warmers_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_luxury_towel_warmers_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Towel Warmers/T3.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -341,12 +341,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item towel-warmers" data-category="towel-warmers">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.3s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Towel Warmers/T4.jpg'; ?>" alt="Designer Towel Warmers" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Towel Warmers/T4.jpg'; ?>" alt="Designer Towel Warmers" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Designer Towel Warmers</h4>
-                        <p style="color: white !important;">Stylish towel warmers that enhance your bathroom</p>
-                        <a href="<?php echo 'assets/new img/Towel Warmers/T4.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_designer_towel_warmers_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_designer_towel_warmers_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Towel Warmers/T4.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -361,12 +361,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.4s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Pool 1.jpg'; ?>" alt="Swimming Pool Heating" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Pool 1.jpg'; ?>" alt="Swimming Pool Heating" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Swimming Pool Heating</h4>
-                        <p style="color: white !important;">Year-round pool comfort with efficient heating</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Pool 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_swimming_pool_heating_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_swimming_pool_heating_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Pool 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -378,12 +378,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.5s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" alt="Jacuzzi Heating Systems" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" alt="Jacuzzi Heating Systems" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Jacuzzi Heating Systems</h4>
-                        <p style="color: white !important;">Luxury jacuzzi heating for ultimate relaxation</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_jacuzzi_heating_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_jacuzzi_heating_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 1.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -395,12 +395,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.6s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Educational Pool 1.png'; ?>" alt="Pool Heating Installation" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Educational Pool 1.png'; ?>" alt="Pool Heating Installation" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Pool Heating Installation</h4>
-                        <p style="color: white !important;">Professional pool heating system installation</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Educational Pool 1.png'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_pool_installation_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_pool_installation_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Educational Pool 1.png'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -412,12 +412,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.7s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 2.jpg'; ?>" alt="Premium Jacuzzi Solutions" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 2.jpg'; ?>" alt="Premium Jacuzzi Solutions" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Premium Jacuzzi Solutions</h4>
-                        <p style="color: white !important;">High-end jacuzzi heating for luxury homes</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_premium_jacuzzi_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_premium_jacuzzi_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 2.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -429,12 +429,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.8s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 3.jpg'; ?>" alt="Modern Jacuzzi Design" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 3.jpg'; ?>" alt="Modern Jacuzzi Design" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Modern Jacuzzi Design</h4>
-                        <p style="color: white !important;">Contemporary jacuzzi heating solutions</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 3.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_modern_jacuzzi_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_modern_jacuzzi_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 3.jpg'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
@@ -446,12 +446,12 @@
          <div class="col-lg-6 col-md-6 mb-4 gallery-item pools" data-category="pools">
             <div class="gallery-card wow fadeInUp" data-wow-delay="1.9s">
                <div class="gallery-image">
-                  <img src="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 4.webp'; ?>" alt="Advanced Jacuzzi Systems" class="img-fluid">
+                  <img src="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 4.webp'; ?>" alt="Advanced Jacuzzi Systems" class="img-fluid">
                   <div class="gallery-overlay">
                      <div class="overlay-content">
-                        <h4 style="color: white !important;">Advanced Jacuzzi Systems</h4>
-                        <p style="color: white !important;">High-tech jacuzzi heating and control systems</p>
-                        <a href="<?php echo 'assets/new img/Pools & Jacuzzi/Jacuzzi 4.webp'; ?>" class="gallery-link" data-fancybox="gallery">
+                        <h4 style="color: white !important;"><?php _e('gallery_advanced_jacuzzi_title'); ?></h4>
+                        <p style="color: white !important;"><?php _e('gallery_advanced_jacuzzi_desc'); ?></p>
+                        <a href="<?php echo 'assets/new-img/Pools & Jacuzzi/Jacuzzi 4.webp'; ?>" class="gallery-link" data-fancybox="gallery">
                            <i class="fa-light fa-search-plus"></i>
                         </a>
                      </div>
